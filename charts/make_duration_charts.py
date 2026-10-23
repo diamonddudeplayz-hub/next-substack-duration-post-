@@ -16,31 +16,33 @@ def load(f):
 
 # ---------- Chart 1: 1-year outcome dispersion by name (HERO) ----------
 # worst, median, best, std  (from price_analysis.py)
-rows=[("NVIDIA (NVDA)",-55,62,305,91,ORANGE),
-      ("Adobe (ADBE)", -58,-21,105,38,NAVY),
-      ("Itron (ITRI)", -45,22,99,33,NAVY),
-      ("Cheniere (LNG)",-20,13,72,18,NAVY)]
+rows=[("NVIDIA (NVDA)",-55,62,305,ORANGE),
+      ("Adobe (ADBE)", -58,-21,105,NAVY),
+      ("Itron (ITRI)", -45,22,99,NAVY),
+      ("Cheniere (LNG)",-20,13,72,NAVY)]
 y=list(range(len(rows)))[::-1]
-fig,ax=plt.subplots(figsize=(9.2,5.2))
-ax.axvline(0,color="#b9b9b9",lw=1,zorder=1)
-for yi,(name,wlo,med,whi,sd,col) in zip(y,rows):
-    ax.plot([wlo,whi],[yi,yi],color=col,lw=7,solid_capstyle="round",alpha=0.85,zorder=3)
-    ax.scatter([med],[yi],color="white",edgecolor=col,s=70,lw=2.2,zorder=4)
-    ax.annotate(f"{wlo:+d}%",(wlo,yi),xytext=(1,-12),textcoords="offset points",va="top",ha="left",color="#888",fontsize=9.3)
-    ax.annotate(f"{whi:+d}%",(whi,yi),xytext=(9,0),textcoords="offset points",va="center",ha="left",fontweight="bold",color=INK,fontsize=10.5)
-    ax.annotate(f"σ {sd}",(whi,yi),xytext=(9,-13),textcoords="offset points",va="center",ha="left",color=col if col==ORANGE else "#888",fontweight="bold" if col==ORANGE else "normal",fontsize=9.3)
-ax.set_yticks(y); ax.set_yticklabels([r[0] for r in rows],fontsize=11.5,color="#333")
-ax.set_xlim(-75,330); ax.set_xticks([-50,0,50,100,150,200,250,300])
-ax.set_xticklabels(["-50%","0","+50%","+100%","+150%","+200%","+250%","+300%"],color="#555",fontsize=9.5)
+fig,ax=plt.subplots(figsize=(9.6,5.4))
+ax.axvline(0,color="#c7c7c7",lw=1,zorder=1)
+for yi,(name,wlo,med,whi,col) in zip(y,rows):
+    ax.plot([wlo,whi],[yi,yi],color=col,lw=8.5,solid_capstyle="round",alpha=0.9,zorder=3)
+    ax.scatter([med],[yi],color="white",edgecolor=col,s=90,lw=2.5,zorder=4)
+    ax.annotate(f"{wlo:+d}%",(wlo,yi),xytext=(-11,0),textcoords="offset points",va="center",ha="right",color="#666",fontsize=10.5)
+    ax.annotate(f"{whi:+d}%",(whi,yi),xytext=(12,0),textcoords="offset points",va="center",ha="left",fontweight="bold",color=INK,fontsize=11.5)
+# one 'median' callout on the top row so the ring is unambiguous
+ax.annotate("median",(62,y[0]),xytext=(0,-15),textcoords="offset points",ha="center",va="top",fontsize=9,color="#9a9a9a")
+ax.set_yticks(y); ax.set_yticklabels([r[0] for r in rows],fontsize=12,color="#2b2b2b")
+ax.set_xlim(-98,345); ax.set_xticks([-50,0,50,100,150,200,250,300])
+ax.set_xticklabels(["-50%","0","+50%","+100%","+150%","+200%","+250%","+300%"],color="#666",fontsize=9.5)
+ax.set_ylim(-0.6,3.7)
 for s in ["top","right","left"]: ax.spines[s].set_visible(False)
 ax.tick_params(axis="y",length=0); ax.grid(axis="x",color=GRID,lw=0.8,zorder=0)
 fig.suptitle("Entry date decided five times as much on NVIDIA as on Cheniere",
     fontsize=15,fontweight="bold",color=INK,x=0.02,ha="left",y=0.965)
-fig.text(0.02,0.875,"Spread of one-year returns by entry day, last five years. Each bar runs worst to best; the ring is the median.",
+fig.text(0.02,0.875,"One-year returns by entry day over five years. Each bar runs from the worst to the best outcome; the ring is the median.",
     fontsize=10.6,color="#666",va="bottom")
 fig.text(0.02,0.015,"Every trading day Oct 2021–Oct 2025 as an entry, held one year. Source: LSEG daily closes; author's calculations.",
     fontsize=9,color="#888",style="italic")
-fig.subplots_adjust(left=0.165,right=0.93,top=0.80,bottom=0.11)
+fig.subplots_adjust(left=0.175,right=0.95,top=0.80,bottom=0.11)
 fig.savefig("charts/entry-dispersion.png",facecolor="white"); print("wrote charts/entry-dispersion.png")
 
 # ---------- Chart 2: Itron price vs 200-week line, annotated ----------
