@@ -105,12 +105,9 @@ for name,bx,sd,col,side in pts:
             fontsize=11.5,fontweight="bold",color=INK)
         ax.annotate(f"β −{bx:.1f}%   σ {sd}",(bx,0),xytext=(0,-18),textcoords="offset points",
             ha="center",va="top",fontsize=9,color="#777")
-# gold, conceptual far end
-ax.scatter([19.6],[0],s=150,facecolor="white",edgecolor="#c6a04e",lw=2.4,zorder=5)
-ax.annotate("Gold",(19.6,0),xytext=(0,30),textcoords="offset points",ha="center",va="bottom",
-    fontsize=11.5,fontweight="bold",color="#b08a2e")
-ax.annotate("no cash flows",(19.6,0),xytext=(0,16),textcoords="offset points",ha="center",va="bottom",
-    fontsize=9,color="#b08a2e")
+# gold note: it is off this axis, not at the end of it
+ax.text(0.985,0.60,"Gold sits off this axis:\nno cash flows, no multiple",transform=ax.transAxes,
+    ha="right",va="top",fontsize=9,color="#b08a2e",style="italic")
 # pole labels, pinned to the bottom corners so they clear the markers
 ax.text(0.015,0.03,"COMMITTED CASH\nrate-resilient · timing is noise",transform=ax.transAxes,
     ha="left",va="bottom",fontsize=9.5,color=NAVY,fontweight="bold")
@@ -122,7 +119,7 @@ fig.suptitle("The entry decides the most where the return rides on the multiple"
     fontsize=15,fontweight="bold",color=INK,x=0.03,ha="left",y=0.96)
 fig.text(0.03,0.855,"Each name placed by how hard it moves with the ten-year yield (β per +100bp). σ is the spread of one-year outcomes by entry date.",
     fontsize=10.4,color="#666",va="bottom")
-fig.text(0.03,0.02,"Rate betas from a 60-month regression; gold shown as the no-cash-flow endpoint. Source: LSEG; author's calculations.",
+fig.text(0.03,0.02,"Rate betas (β per +100bp) from a 60-month regression of monthly returns on the change in the 10-year. Source: LSEG; author's calculations.",
     fontsize=9,color="#888",style="italic")
 fig.subplots_adjust(left=0.03,right=0.97,top=0.76,bottom=0.12)
 fig.savefig("charts/duration-spectrum.png",facecolor="white"); print("wrote charts/duration-spectrum.png")
