@@ -44,13 +44,13 @@ One line of regime, because it raises the stakes. The US ten-year yield was 5.29
 
 ## My positions, in order of how much timing matters
 
-**Cheniere (LNG).** The return is yield plus contracted growth and a small re-rating. Roughly 90% of production is contracted through the mid-2030s on a weighted-average contract life near 15 years, and $6.6B of fixed fees arrive over the next twelve months regardless of commodity prices. At 11 times contracted EBITDA that is a floor near $235. The downside is bounded by contract, not by when I bought. Timing barely matters here. The floor is the margin of safety, and the buy band is wide.
+**Cheniere (LNG).** The return is yield plus contracted growth and a small re-rating. Roughly 90% of production is contracted through the mid-2030s on a weighted-average contract life near 15 years, and $6.6B of fixed fees arrive over the next twelve months regardless of commodity prices. At 11 times contracted EBITDA that is a floor near $235. On top of the floor it hands back about 5.8% a year in cash, a 0.77% dividend plus a roughly 5% buyback yield, so part of the return lands in hand no matter what the multiple does. The downside is bounded by contract, not by when I bought. Timing barely matters here. The floor is the margin of safety, and the buy band is wide.
 
 **Adobe (ADBE).** The return depends on a re-rating from 7.52 times EV/EBITDA back toward a 12.4 times peer group, and there is a real chance the cheapness is the diagnosis rather than the opportunity. Long duration, cash flows far out, no contractual floor under it. The stock touched $190 in June. The verdict, Q4 net new ARR and then the new CEO's first guidance in March, has not arrived. You cannot time an entry well when there is no dated catalyst and the thesis itself is still on trial.
 
 **Nvidia (NVDA).** A long-duration winner rather than a cheap re-rate. The return is mostly growth, and the risk is a multiple that falls if the shortage ends before the demand does, which is the Burry trade I wrote about. High duration and high rate sensitivity, so the entry price matters a lot, as the tape below shows more starkly than any name I own.
 
-**Itron (ITRI).** The return is almost entirely a multiple re-rate, from a 15.6 times hardware earnings multiple toward what a software business with its margins would command. The forcing function is the Investor Day, due around early 2027 once the Resiliency integration closes. Here the entry is close to the whole trade.
+**Itron (ITRI).** The business is compounding on its own, with ARR up 21% and gross margin already past the 2027 target three years early. What makes it the most entry-sensitive name I own is that the single biggest piece of the upside is a multiple re-rate, from a 15.6 times hardware earnings multiple toward what a software business with these margins would command. The growth accrues regardless. The re-rate waits on the Investor Day, due around early 2027 once the Resiliency integration closes.
 
 **Gold, held through Wheaton.** No cash flows, no price target by design, a floor that rises with central-bank buying. Timing on fundamentals is meaningless. You accumulate against a rising floor and watch the break conditions. It is the only name here with no price chart to run, which is the cleanest statement of the point.
 
@@ -108,7 +108,7 @@ My own entries against October 22, for honesty about the cost of my own timing:
 | Nvidia (NVDA) | 179.78 | 212.21 | +18.0% |
 | Itron (ITRI) | 92.74 | 88.17 | −4.9% |
 
-The two short-to-growth names I am up on are carried by the business. The one I am down on, Itron, is the pure re-rate bet, and it is down because the piece I am waiting on has not fired. That is the framework describing my own book back to me.
+The two I am down on, Adobe and Itron, are the two whose return leans hardest on a re-rate that has not happened yet. The two I am up on are carried by things that accrue no matter when I bought: Cheniere by its contracted cash and its floor, Nvidia by the growth that has already shown up. That is the framework describing my own book back to me.
 
 ## What would change my mind
 
