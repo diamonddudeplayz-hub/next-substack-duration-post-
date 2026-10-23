@@ -82,3 +82,47 @@ fig.text(0.065,0.015,"Daily closes and 200-week moving average, Apr 2025–Oct 2
     fontsize=9,color="#888",style="italic")
 fig.subplots_adjust(left=0.075,right=0.91,top=0.80,bottom=0.11)
 fig.savefig("charts/itron-200week.png",facecolor="white"); print("wrote charts/itron-200week.png")
+
+# ---------- Chart 3: the duration / entry-timing spectrum ----------
+# names placed by |rate beta| (resilience). Gold is the conceptual far end.
+pts=[("Cheniere\n(LNG)",1.6,18,NAVY,'up'),
+     ("Itron\n(ITRI)",10.6,33,NAVY,'up'),
+     ("Adobe\n(ADBE)",15.7,38,SLATE,'down'),
+     ("NVIDIA\n(NVDA)",16.2,91,ORANGE,'up')]
+fig,ax=plt.subplots(figsize=(10.2,5.1))
+# baseline arrow
+ax.annotate("",xy=(20.8,0),xytext=(-0.6,0),
+    arrowprops=dict(arrowstyle="-|>",color="#9aa6b4",lw=2.2))
+for name,bx,sd,col,side in pts:
+    ax.scatter([bx],[0],s=150,color=col,zorder=5,edgecolor="white",lw=1.5)
+    if side=='up':
+        ax.annotate(name,(bx,0),xytext=(0,30),textcoords="offset points",ha="center",va="bottom",
+            fontsize=11.5,fontweight="bold",color=INK)
+        ax.annotate(f"β −{bx:.1f}%   σ {sd}",(bx,0),xytext=(0,16),textcoords="offset points",
+            ha="center",va="bottom",fontsize=9,color="#777")
+    else:
+        ax.annotate(name,(bx,0),xytext=(0,-34),textcoords="offset points",ha="center",va="top",
+            fontsize=11.5,fontweight="bold",color=INK)
+        ax.annotate(f"β −{bx:.1f}%   σ {sd}",(bx,0),xytext=(0,-18),textcoords="offset points",
+            ha="center",va="top",fontsize=9,color="#777")
+# gold, conceptual far end
+ax.scatter([19.6],[0],s=150,facecolor="white",edgecolor="#c6a04e",lw=2.4,zorder=5)
+ax.annotate("Gold",(19.6,0),xytext=(0,30),textcoords="offset points",ha="center",va="bottom",
+    fontsize=11.5,fontweight="bold",color="#b08a2e")
+ax.annotate("no cash flows",(19.6,0),xytext=(0,16),textcoords="offset points",ha="center",va="bottom",
+    fontsize=9,color="#b08a2e")
+# pole labels, pinned to the bottom corners so they clear the markers
+ax.text(0.015,0.03,"COMMITTED CASH\nrate-resilient · timing is noise",transform=ax.transAxes,
+    ha="left",va="bottom",fontsize=9.5,color=NAVY,fontweight="bold")
+ax.text(0.985,0.03,"DISCRETIONARY MULTIPLE\nrate-sensitive · timing is the trade",transform=ax.transAxes,
+    ha="right",va="bottom",fontsize=9.5,color=ORANGE,fontweight="bold")
+ax.set_xlim(-1.5,22); ax.set_ylim(-1.7,1.0)
+ax.axis("off")
+fig.suptitle("The entry decides the most where the return rides on the multiple",
+    fontsize=15,fontweight="bold",color=INK,x=0.03,ha="left",y=0.96)
+fig.text(0.03,0.855,"Each name placed by how hard it moves with the ten-year yield (β per +100bp). σ is the spread of one-year outcomes by entry date.",
+    fontsize=10.4,color="#666",va="bottom")
+fig.text(0.03,0.02,"Rate betas from a 60-month regression; gold shown as the no-cash-flow endpoint. Source: LSEG; author's calculations.",
+    fontsize=9,color="#888",style="italic")
+fig.subplots_adjust(left=0.03,right=0.97,top=0.76,bottom=0.12)
+fig.savefig("charts/duration-spectrum.png",facecolor="white"); print("wrote charts/duration-spectrum.png")
