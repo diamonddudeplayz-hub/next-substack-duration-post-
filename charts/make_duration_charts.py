@@ -114,7 +114,7 @@ ax.text(1.0,0.07,"DISCRETIONARY MULTIPLE\nreturn rides on a re-rate · timing is
 ax.set_xlim(-0.75,3.95); ax.set_ylim(-1.5,1.0); ax.axis("off")
 fig.suptitle("The more your return rides on the multiple, the more the entry decides",
     fontsize=15,fontweight="bold",color=INK,x=0.03,ha="left",y=0.96)
-fig.text(0.03,0.85,"My four equities, ordered by how hard each moves with interest rates, a proxy for how much of the return is the multiple.",
+fig.text(0.03,0.85,"My four equities, ordered by how hard each moves with interest rates, a proxy for what a bad entry can cost.",
     fontsize=10.4,color="#666",va="bottom")
 fig.text(0.03,0.02,"β is the move per +1 point in the 10-year, from a 60-month regression. Source: LSEG; author's calculations.",
     fontsize=9,color="#888",style="italic")
