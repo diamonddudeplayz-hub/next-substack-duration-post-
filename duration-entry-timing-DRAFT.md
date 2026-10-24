@@ -146,7 +146,7 @@ So the question is not whether to time your entries. It is which of your positio
 - *Price and yield data: LSEG daily closing prices and US 10-year yield, October 2021 to October 2026; dispersion, drawdown and rate-beta calculations are the author's own.*
 - *The September 22, 2026 Note on technical analysis among value investors on Substack.*
 - *Cheniere: FY2025 Form 10-K (contracted SPA revenue table); Q2 2026 earnings call and press release, August 6, 2026; QatarEnergy SPA press release, October 22, 2026; Petrobras SPA press release, September 29, 2026; current multiples, net debt, share count and dividend via TIKR Terminal and StockAnalysis.*
-- *Itron: Q2 2026 earnings call, July 28, 2026; Roth MKM fireside chat with CEO Tom Deitrich and CFO Joan Hooper [date TK]; and prior coverage ("My Biggest Position Went Up 26% in One Day," August 3, 2026).*
+- *Itron: Q2 2026 earnings call, July 28, 2026; Roth MKM fireside chat with CEO Tom Deitrich and CFO Joan Hooper, August 5, 2026; and prior coverage ("My Biggest Position Went Up 26% in One Day," August 3, 2026).*
 - *Adobe: Q3 FY2026 earnings call, September 10, 2026; forward EV/EBITDA multiples for ADBE and peers (CRM, ADSK, INTU, SAP, MSFT, ORCL, NOW) via LSEG Workspace; prior coverage ("Is Adobe a Value Trap?," September 14, 2026).*
 - *NVIDIA and the neoclouds: prior coverage ("Burry Is Right About the GPUs. He's Wrong About NVIDIA.," October 5, 2026); October 8 selloff prices via Yahoo Finance.*
 - *Gold: World Gold Council central-bank demand data; prior coverage ("The Current Thesis on Gold," September 8, 2026).*
