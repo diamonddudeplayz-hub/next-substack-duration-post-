@@ -111,10 +111,14 @@ Needs price history pulled and verified — a data post, flag the build before s
 
 ## 3. Still open on the current post
 
-- **Title** — leaning paradox/question form. Live options: "On Most Names, Your Entry Price Is
-  Noise." / "When Does Timing Your Entry Actually Matter?" Parked working title still at top of draft.
-- **Closing question** — keep or cut (editor split marked in draft at the close).
+Internal scaffolding (draft header, EDITOR SPLIT note, "Open calls" section) was stripped from the
+draft for publication cleanup. The surviving open items live here now.
+
+- **Title** — LOCKED: "When to Buy Is a Duration Question." Subtitle locked. **Distribution hook**
+  for the Substack Note / social: *On Most Names, Your Entry Price Is Noise.*
+- **Closing question** — still open: keep or cut. Currently KEPT in the draft (the fuller version);
+  the EDITOR SPLIT note was removed but the decision wasn't made, so it stays unless cut.
 - **De-polish pass** — ~8–10 sentences, per §1 above. Not yet run.
 - **Survey quotes** — currently framed as two anonymous camps. Decide whether to name handles.
-- **Live rotation line** — the LNG/ADBE → gold trim is in; confirm it reads as a live decision.
+- **Live rotation line** — in, framed as the framework changing sizing rather than scoring a call.
 - **Distribution copy** — Substack note, LinkedIn, Reddit — to draft once the body is locked.
