@@ -11,7 +11,7 @@ That is right, and it stops one step short. The step it misses has a name, and t
 ## The short version
 
 - The near-universal answer among value investors: fundamentals set the value, charts time the entry. It is right, and it stops one step short.
-- Timing an entry mostly moves one part of a return. Your yield and growth accrue with time no matter what day you buy, and a cheaper price lifts your yield on cost, but over the days that timing spans it is chiefly the multiple you pay against the one you sell that your entry swings.
+- Timing an entry is mostly a bet on one part of a return. Cash flow per share and its growth accrue with time no matter what day you buy; your entry price sets the yield you earn on your capital and the multiple you pay against the one you sell, and the multiple is where most of the swing lives.
 - How much that part is worth depends on how much of your return is cash paid to you no matter what, versus a future multiple the market may or may not grant. The more it leans on the multiple, the more timing matters.
 - On my own five names the spread is not subtle. Buy on a random day and hold a year, and your outcome varied far more on one than the other: a standard deviation, the usual measure of how spread out the results are, of 18 points on Cheniere against 91 on NVIDIA.
 - What would change my mind is below, and it is a number.
@@ -20,7 +20,7 @@ That is right, and it stops one step short. The step it misses has a name, and t
 
 Break a holding-period return into its pieces. You earn the starting cash yield. You earn the growth in cash flow per share over the years you hold. And you earn, or lose, the change in the multiple between the price you paid and the price you sold.
 
-The first two accrue with time. Buy a compounder on a Tuesday or three weeks later and the yield and the growth barely notice. A cheaper price does lift the yield you lock in per dollar, but over the days or weeks that timing really spans the price barely moves, so what your entry chiefly swings is the third piece: the multiple you pay against the one you sell. In practice, timing an entry is a bet on the change in the multiple.
+The first two accrue with time. The business's cash flow per share and underlying growth barely notice whether you bought on Tuesday or three weeks later, though the yield you earn on your capital does depend on your entry price. The third is the change in the multiple between the price you pay and the price you sell. So timing an entry is mostly a bet on the multiple.
 
 That reframes the whole question. Timing your entry is worth the effort in proportion to two things: how much of your expected return comes from the multiple changing, and how much that multiple swings around while you hold. A large, volatile multiple component means a good or bad entry moves your return a lot. A small, stable one means it barely registers.
 
