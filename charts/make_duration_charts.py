@@ -65,7 +65,7 @@ def mark(date,txt,dy,col=INK,ha="center",dx=0):
     ax.annotate(txt,(i,px),xytext=(dx,dy),textcoords="offset points",ha=ha,fontsize=9.6,color=col,
         fontweight="bold",va="bottom" if dy>0 else "top")
 mark('2026-07-27',"pre-print $84.78",-26,"#888")
-mark('2026-07-28',"+26% on the Q2 beat,\n$107 intraday",16,ORANGE)
+mark('2026-07-28',"+26% on the Q2 beat,\n$107 close",16,ORANGE)
 mark('2026-10-23',"now\n$87.65",2,NAVY,ha="left",dx=10)
 # inline 200-week label on the dashed line, mid-chart
 li=int(len(d)*0.42)
