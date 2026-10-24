@@ -47,6 +47,7 @@ fig.savefig("charts/entry-dispersion.png",facecolor="white"); print("wrote chart
 
 # ---------- Chart 2: Itron price vs 200-week line, annotated ----------
 itri=load("itri 5y (1).xlsx")
+itri=pd.concat([itri,pd.DataFrame({'Date':[pd.Timestamp('2026-10-23')],'Px':[87.65]})],ignore_index=True)
 w=itri.set_index('Date')['Px'].resample('W-FRI').last()
 ma=w.rolling(200).mean()
 ma_d=ma.reindex(itri['Date'].values,method='ffill').values  # 200w MA aligned to daily
@@ -63,7 +64,7 @@ def mark(date,txt,dy,col=INK,ha="center",dx=0):
         fontweight="bold",va="bottom" if dy>0 else "top")
 mark('2026-07-27',"pre-print $84.78",-14,"#888")
 mark('2026-07-28',"+26% on the Q2 beat,\n$107 intraday",16,ORANGE)
-mark('2026-10-22',"now\n$88.17",2,NAVY,ha="left",dx=10)
+mark('2026-10-23',"now\n$87.65",2,NAVY,ha="left",dx=10)
 # inline 200-week label on the dashed line, mid-chart
 li=int(len(d)*0.42)
 ax.annotate("200-week line",(li,d['ma'].iloc[li]),xytext=(0,-16),textcoords="offset points",color=SLATE,fontsize=10,fontweight="bold",ha="center",va="top")
