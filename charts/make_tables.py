@@ -32,7 +32,7 @@ def table(fname,title,cols,aligns,widths,rows,source,cw=9.0):
                     fontweight="bold" if c==0 else "normal",va="center",ha=a)
     ybot=y_h-n*band
     ax.plot([0,1],[ybot,ybot],color=NAVY,lw=1.4)
-    ax.text(0.0,ybot-0.045,source,color="#888",fontsize=8.0,style="italic",va="top",ha="left")
+    ax.text(0.0,ybot-0.045,source,color="#888",fontsize=7.5,style="italic",va="top",ha="left")
     fig.subplots_adjust(left=0.02,right=0.98,top=0.995,bottom=0.01)
     fig.savefig(f"charts/{fname}",facecolor="white"); print("wrote",fname)
 
@@ -43,7 +43,7 @@ table("table-dispersion.png","One-Year Return by Entry Date, Five Years",
        ["Itron (ITRI)","−45%","+22%","+99%","33"],
        ["Adobe (ADBE)","−58%","−21%","+105%","38"],
        ["NVIDIA (NVDA)","−55%","+62%","+305%","91"]],
-      "Every trading day Oct 2021–Oct 2025 taken as an entry, held one year. Spread is the standard deviation of those outcomes. Source: LSEG daily closes; author's calculations.")
+      "Every trading day Oct 2021–Oct 2025 as an entry, held one year. Source: LSEG; author's calculations.",cw=9.6)
 
 table("table-betas.png","Sensitivity to the 10-Year Yield",
       ["Name","Move per +1 point in the 10-year","R²"],

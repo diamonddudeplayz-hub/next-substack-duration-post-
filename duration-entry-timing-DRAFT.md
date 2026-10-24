@@ -60,9 +60,12 @@ One line of regime, because it raises the stakes. The US ten-year yield was 5.29
 
 On July 28 Itron rose 26% in a single session on a margin beat and an EPS guide. I wrote at the time that the move repriced the EPS and did not reprice the business. In this framework that sentence has a precise meaning.
 
-The 26% was the first two parts of the return. Earnings power got marked up. The multiple, the part a re-rating delivers, stayed where it was, an earnings multiple on a business the market still files under hardware. You can see which of the two moved by watching the multiple itself: the forward P/E after the 26% jump was about what it had been before it, so the price rose because the earnings number rose, not because the market agreed to pay more for each dollar of them.
+The 26% was the first two parts of the return. Earnings power got marked up. The multiple, the part a re-rating delivers, stayed where it was, an earnings multiple on a business the market still files under hardware. You can see it in the multiple itself: even after the 26% jump the stock sat at about 15.6x forward earnings, 0.75x the S&P against a 1.29x ten-year average, near the trough of its own range. The market marked the earnings up and kept paying a trough, hardware-style multiple for them. A name that used to trade at a 29% premium to the market was still at a 25% discount.
 
 Here is what happened next, and it is the whole argument in one name. The stock has given the entire move back. Itron closed at $87.65 on October 23, below the $99.66 it settled at after the print and below my own cost, and cheaper on forward earnings than it was before the quarter that beat. It now sits about 4% below its 200-week moving average. The earnings pop faded because the multiple never re-rated, and the re-rate, the switch to valuing the software, is still sitting out there waiting on a catalyst with a date. Being early has cost me a few percent, and nothing of the thesis: the piece I am waiting on has not moved.
+
+> **[INSERT IMAGE: charts/itron-200week.png]**
+> *Caption: Itron gave the entire 26% back and now sits on its 200-week line, with the re-rate still ahead.*
 
 ## Where I actually sit
 
@@ -99,12 +102,8 @@ Everything above is a claim. Here is five years of closing prices testing it.
 
 **How much did the entry date actually matter.** Take every trading day in the last five years, buy, hold one year, record the result. The spread of those outcomes is how much your entry date decided your fate.
 
-| Name | worst 1-yr | median | best 1-yr | std dev |
-|---|---|---|---|---|
-| Cheniere (LNG) | −20% | +13% | +72% | 18 |
-| Itron (ITRI) | −45% | +22% | +99% | 33 |
-| Adobe (ADBE) | −58% | −21% | +105% | 38 |
-| NVIDIA (NVDA) | −55% | +62% | +305% | 91 |
+> **[INSERT IMAGE: charts/table-dispersion.png]** (or the chart version, charts/entry-dispersion.png, as the hero)
+> *Caption: One-year return by entry date, five years. The wider the spread, the more your entry date decided the result.*
 
 Entry date mattered five times as much on NVIDIA as on Cheniere, and Cheniere's worst year was a −20% while NVIDIA's was −55%. The name carried by contracted cash and a floor is the one where timing was closest to noise.
 
@@ -112,9 +111,17 @@ Entry date mattered five times as much on NVIDIA as on Cheniere, and Cheniere's 
 
 **Rate sensitivity points the same way.** Regress each stock's monthly return on the monthly move in the ten-year yield over the last five years and the ranking holds. Cheniere barely reacts, and the long-duration names move about ten times as hard.
 
-(Betas: Cheniere −1.6%, Itron −10.6%, NVIDIA −16.2%, Adobe −15.7% per one-point move in the ten-year, sixty monthly observations, October 2021 to October 2026. The R-squared runs from roughly zero on Cheniere, where rates explain almost none of the moves, to 0.16 on Adobe, so the relationship is directionally clear and numerically noisy. The drawdown ranking says the same thing without a regression, which is why I lead with it.)
+> **[INSERT IMAGE: charts/table-betas.png]**
+> *Caption: How hard each name moves with the 10-year. The floored name barely reacts; the re-rate names move about ten times as much.*
+
+The R-squared runs from roughly zero on Cheniere, where rates explain almost none of its moves, to 0.16 on Adobe, so read the ranking, not the decimals. The drawdown above says the same thing without any regression at all, which is why I lead with it.
 
 This is the evidence for the claim I could only assert earlier. The textbook DCF said a one-point rate rise should cost a long-duration name about three points more than a short one, 17 against 14. The tape says the long-duration names move something like ten times as much with rates as Cheniere does. The cash flows are the same in both accounts, so the extra is the market repricing those far-out years, the multiple rather than the math. Some of it is just risk appetite, since these are high-beta names that sell off when money gets scared, so I read the multiple as most of that gap, not all of it. Either way it is the piece the arithmetic never captured.
+
+> **[INSERT IMAGE: charts/duration-spectrum.png]**
+> *Caption: My four equities, ordered by how much of the return rides on the multiple. The entry matters more as you move right.*
+
+One honest limit on that ordering: the rate beta captures the piece of the multiple that moves with rates. It understates a name like Itron, whose re-rate is company-specific rather than rate-driven, so Itron sits lower on the rate axis than its true multiple-dependence. The dispersion table catches what the beta misses, which is why it, not the beta, is the test.
 
 One last cut, because it is the rule the chart crowd actually uses. There is a well-worn line, usually hung on Charlie Munger though the quote is almost certainly apocryphal, that you buy quality names when they fall to their 200-week moving average. The 200-week part matters, and it is the part people get wrong by reaching for the 200-day, as I did at first. A quality name touches its 200-day line constantly. It touches its 200-week line only in a real dislocation. Run the 200-week line on the four names with price histories and it flags exactly one. Itron sits about 4% below its 200-week line today. Cheniere trades 44% above its line and NVIDIA 77% above, and neither has been near it in five years. Adobe sits 34% below a 200-week line dragged up by three years of $400-to-$600 prices that are not coming back, a lagging average, not a buy signal. The rule points at the one name where the re-rate has not happened, and says nothing on the names carried by growth or capped by a floor. One firing across five years is an observation, not a test. A real test of whether the rule works wants fifteen years and a cross-section of names, and that is a separate post.
 
@@ -122,7 +129,7 @@ Read against this, the survey answers stop arguing. The investors who use charts
 
 ## What would change my mind
 
-The dispersion table is the test. If the short-duration names with contracted cash flows showed as much entry-timing variance as the long-duration re-rate plays, the framework would be wrong. They do not, by a factor of five. And a chart alone is never a reason to buy: it only tells you whether the multiple is depressed, which matters once you have already decided the business is worth owning.
+The framework makes one prediction: entry timing should matter more on the names where the return rides on a multiple than on the ones paid in cash. The dispersion table is where that gets tested. Had Cheniere's one-year outcomes varied as much by entry date as NVIDIA's, the prediction would be false and the framework with it. Instead Cheniere's spread is a fifth of NVIDIA's. And a chart alone is never a reason to buy: it only tells you whether the multiple is depressed, which matters once you have already decided the business is worth owning.
 
 ## The close
 
