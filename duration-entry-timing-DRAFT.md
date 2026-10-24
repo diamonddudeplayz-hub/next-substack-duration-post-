@@ -1,16 +1,15 @@
-# [working title, parked] When to Buy Is a Duration Question
+# When to Buy Is a Duration Question
 
-*Paradox-title options: "On Most Names, Your Entry Price Is Noise." / "Timing Doesn't Matter on Most Names. On the Longest-Duration Ones, It's the Whole Trade." / "The Entry That Barely Matters, and the One That Is the Whole Trade."*
+*Subtitle: I asked twenty-five value investors how they time their entries. The best answers were all describing the same variable, and none of them named it.*
 
-*[working subtitle] I asked twenty-five value investors how they time their entries. The best answers were all describing the same variable, and none of them named it.*
+*Distribution hook (Substack Note / social): On Most Names, Your Entry Price Is Noise.*
 
 ---
 
-> DRAFT 4. Addresses the line-by-line review. Real tape (LSEG daily closes, five years, through
-> October 22 2026; US 10Y monthly). 200-week moving averages recomputed and distinguished from the
-> 200-day. Multiples updated to current (ADBE 7.7x LSEG, ITRI 12.9x fwd P/E, NVDA ~14x). LNG floor
-> sourced to the FY2025 10-K / April post, cash yield to the dividend data. Transaction history and
-> the WPM memo kept private. Open calls at the bottom.
+> DRAFT 5. Restructured so the five-year result comes before the theory. Real tape (LSEG daily closes,
+> five years, through October 2026; US 10Y monthly). 200-week moving averages distinguished from the
+> 200-day. Multiples current (ADBE 7.7x EV/EBITDA, ITRI 12.5x fwd P/E, NVDA ~14x). LNG floor sourced
+> to the FY2025 10-K / April post. Transaction history and the WPM memo kept private.
 
 ---
 
@@ -34,13 +33,26 @@ The first two accrue with time. Buy a compounder on a Tuesday or three weeks lat
 
 That reframes the whole question. Timing your entry is worth the effort in proportion to two things: how much of your expected return comes from the multiple changing, and how much that multiple swings around while you hold. A large, volatile multiple component means a good or bad entry moves your return a lot. A small, stable one means it barely registers.
 
+## How much the entry actually mattered
+
+Before the theory, the measurement, because the measurement is what sent me looking for the theory. Take every trading day over the past five years, buy that day, hold one year, record the result. The spread of those outcomes is how much the date you picked changed where you ended up.
+
+Across those five years the standard deviation of one-year returns was 18 percentage points for Cheniere and 91 for NVIDIA. That is the measure: how far your entry date moved your eventual outcome. It does not prove duration caused the gap, since NVIDIA is also simply a far more volatile stock, and I come back to that. But the ranking is the thing to sit with. The name whose return leans most on a future multiple is the one where the entry mattered most, and the name paid in contracted cash is the one where it was closest to noise.
+
+> **[INSERT IMAGE: charts/entry-dispersion.png]**
+> *Caption: One-year return by entry date, five years. Each bar runs from the worst outcome to the best; the wider the spread, the more your entry date decided the result.*
+
+The rest of this post is why that spread tracks what it tracks. The answer starts with duration.
+
 ## What duration is
 
 Duration means how far out a company's cash flows sit. The bond market has the cleanest version of it. A three-year zero and a thirty-year coupon bond are both bonds, but move the interest rate a point and the thirty-year swings far more, because more of what you are owed arrives further away. Stocks work the same way. A cheap, cash-generative name is the short bond: most of the value comes back to you soon, so a change in the discount rate barely moves it. A high-multiple grower is the long bond: most of what you are paying for arrives years out, past the end of any ten-year model, in the terminal value that the exit multiple stands in for. So its price moves more when the rate moves, and more of what you own is a number you have been promised, not yet paid.
 
 One wrinkle, because Cheniere breaks the simple version. Its fee contracts run fifteen years, which by the textbook makes it long duration. It does not behave that way, because the cash is contracted and handed back along the way and a floor caps the repricing. So the axis that actually decides entry timing is not time-to-cash-flow. It is how much of your return is cash paid to you no matter what, against a future multiple the market may or may not grant. Committed cash on one end, a discretionary multiple on the other. The high-multiple names sit at the discretionary end, and that is where the entry decides the most.
 
-I expected the textbook arithmetic to carry the argument, so I ran it. Take two companies worth the same today, both discounted at 9%, both growing for ten explicit years and then fading to 3% forever. One grows 3% the whole way, the slow grower. The other grows 15% through the decade, the fast one, with most of its value landing years out. Raise the discount rate a single point, to 10%. The slow grower loses about 14% of its value. The fast grower loses about 17%. Wider, the way duration says it should be, but barely. That is the whole textbook effect, and everyone knows it, which is why a rate scare takes more out of long-duration names than short ones. It is also not the whole story. The arithmetic only moves the math. What it misses is that a rate scare also drains sentiment out of a long-duration multiple, and I think that second channel is the larger one. I cannot prove that from a DCF. I can show it on the tape, where my own names move far more with rates than 14 against 17 would predict, and that is the next section.
+Duration is the biggest reason that share differs across businesses, but not the only one; volatility, leverage and sentiment can load the multiple too, which is why a name can swing more than its cash-flow profile alone would say. So two things set how much the entry matters, not one. The first is how much of your return rides on that discretionary multiple. The second is how little floor sits under a bad entry. A name can lean hard on the multiple and still be forgiving to enter if the downside is floored, which is exactly where Itron lands. The most entry-sensitive name is the one with both at once: its return rides on the multiple, and it has nothing underneath it.
+
+I expected the textbook arithmetic to carry the argument, so I ran it. Take two companies worth the same today, both discounted at 9%, both growing for ten explicit years and then fading to 3% forever. One grows 3% the whole way, the other 15% through the decade with most of its value landing years out. Raise the discount rate a single point. The slow grower loses about 14% of its value, the fast grower about 17%. Wider, the way duration says it should be, but barely. That is the whole textbook effect, and everyone knows it. It is also not the whole story, because a rate scare drains sentiment out of a long-duration multiple on top of the math, and I think that second channel is the larger one. I cannot prove that from a DCF. I can show it on the tape, where my own names move far more with rates than 14 against 17 would predict.
 
 One line of regime, because it raises the stakes. The US ten-year yield was 5.29% at the start of September and 4.96% by October, with the thirty-year still above 5% and the term premium rising, the backdrop from the gold post. A higher and jumpier discount rate makes the multiple on long-duration equities swing harder. That cuts both ways, and the second way is the opportunity. If the business is fine and only the rate moved, the swing hands you a better entry. Adobe fell to about $190 in June, on a management change and sour sentiment rather than the numbers, which looked fine. Buy it there and you are up roughly a third today, with the real question, the moat, no closer to an answer than it was. The gain came from the price swinging back, not from the business proving anything. The entry paid off before the thesis did.
 
@@ -54,7 +66,7 @@ One line of regime, because it raises the stakes. The US ten-year yield was 5.29
 
 **Itron (ITRI).** The business is compounding on its own, ARR up 21% and gross margin already past the 2027 target three years early. What sets it apart is where the two sides of the trade sit. The upside is almost all one thing: the market changing how it values the company at all, from an earnings multiple on what it still files under hardware, about 12.5x forward earnings today, toward what it would pay for the software business Itron is becoming. The downside is floored from the other side, because I am buying cheap even on the current, conservative framework, and the demand underneath is not discretionary. Tom Deitrich, the CEO, made the point at a Roth fireside chat: the grid build-out is inevitable, the only real rate limiter is how fast utilities adopt the technology. "It is going to happen," he said. When, not if. So the software mix-shift accrues underneath regardless, and being early costs me time, not capital. The re-rate itself waits on the Investor Day in early 2027, when the model rebuild gets hard to avoid.
 
-**Gold.** Not the far end of this list. Off it entirely. Gold has no cash flows and no multiple, so there is nothing to value on fundamentals and nothing to time. The textbook would call a non-yielding asset the longest duration there is, and before 2022 that held: Western funds traded gold against real yields, and it fell when rates rose. That link broke. The marginal buyer is now central banks, who bought a record pace from 2022 through 2025 while yields climbed, and gold rallied into rising rates rather than falling with them. So I do not try to time it. I accumulate against a floor the central-bank buyer keeps lifting, and I watch the break conditions. I hold it mostly through Wheaton, which does have cash flows and a multiple and so does sit on the scale above, with a smaller GLD position as pure-metal exposure, to hedge the company-specific risk a streamer carries on top of the gold price.
+**Gold.** Not the far end of this list. Off it entirely. Gold has no corporate cash flows and no conventional valuation multiple, so the framework I use for equities largely breaks down. The textbook would call a non-yielding asset the longest duration there is, and before 2022 that held: Western funds traded gold against real yields, and it fell when rates rose. That link broke. The marginal buyer is now central banks, who bought a record pace from 2022 through 2025 while yields climbed, and gold rallied into rising rates rather than falling with them. So I do not try to time it. I accumulate against a floor the central-bank buyer keeps lifting, and I watch the break conditions. I hold it mostly through Wheaton, which does have cash flows and a multiple and so does sit on the scale above, with a smaller GLD position as pure-metal exposure, to hedge the company-specific risk a streamer carries on top of the gold price.
 
 ## The Itron day that proves it
 
@@ -80,7 +92,7 @@ My own entries against the October 23 close, for honesty about the cost of my ow
 
 The two I am down on, Adobe and Itron, are the two whose return leans hardest on a re-rate that has not happened yet. The two I am up on are carried by things that accrue no matter when I bought: Cheniere by its contracted cash and its floor, NVIDIA by the growth that has already shown up. That is the framework describing my own book back to me, before I run a single regression on it.
 
-I am acting on it as I write. This week I trimmed Cheniere, where the floor and the cash have done their work, took a little off Adobe ahead of a December binary I cannot handicap, and moved both into gold, the one with a rising floor and no entry to time at all.
+I am acting on it as I write, and the framework is changing my sizing, not keeping score. This week I trimmed Cheniere and took a little off Adobe ahead of a December binary I cannot handicap, and moved both into gold. Not because the framework called a top, but because it told me how much less of my return on those two was ever going to come from an entry I could time, against cash I am paid regardless and a floor that does not need the market to agree.
 
 ## What actually makes a catalyst
 
@@ -94,18 +106,11 @@ Sizing falls out of it, roughly. A wide gap to fair value plus a short, dated ca
 
 FOMO is a duration error before it is a feeling. The mistake is specific: you pay a peak multiple for the longest-dated, most multiple-dependent cash flows at the worst possible moment, right after the re-rate has already happened for someone else. Howard Marks put the other side of it plainly: "Everyone hopes a buyer will come along who's willing to overpay for what they have for sale. But certainly the hoped-for arrival of this sucker can't be counted on." Buying a long-duration name after its multiple has run is a bet that the sucker shows up.
 
-It hurts most on the long-duration names, because that is where the multiple falls furthest when the rate normalises or the story cracks. The October 8 selloff showed it cleanly. NVIDIA fell about 10% in the days after. CoreWeave and Nebius, the leveraged neoclouds whose whole value is a bet on future compute demand, fell about 31% and 30%, three times as far, on the same news. The longest-duration, most multiple-dependent names took the deepest cut, which is the same ranking the rest of this post keeps finding.
+It hurts most on the long-duration names, because that is where the multiple falls furthest when the rate normalises or the story cracks. The October 8 selloff showed it cleanly. NVIDIA fell about 10% in the days after. CoreWeave and Nebius, the leveraged neoclouds whose whole value is a bet on future compute demand, fell about 31% and 30%, three times as far, on the same news. Leverage did some of that work, since the neoclouds carry debt NVIDIA does not, so this is the phenomenon on display rather than clean proof. But the ranking is the one the rest of this post keeps finding: the longest-duration, most multiple-dependent names took the deepest cut.
 
-## The tape, on my own five names
+## The rest of the tape
 
-Everything above is a claim. Here is five years of closing prices testing it.
-
-**How much did the entry date actually matter.** Take every trading day in the last five years, buy, hold one year, record the result. The spread of those outcomes is how much your entry date decided your fate.
-
-> **[INSERT IMAGE: charts/table-dispersion.png]** (or the chart version, charts/entry-dispersion.png, as the hero)
-> *Caption: One-year return by entry date, five years. The wider the spread, the more your entry date decided the result.*
-
-Entry date mattered five times as much on NVIDIA as on Cheniere, and Cheniere's worst year was a −20% while NVIDIA's was −55%. The name carried by contracted cash and a floor is the one where timing was closest to noise.
+The spread at the top of this post was the first angle. Here are two more from the same five years of closing prices, and neither needs a regression to read.
 
 **Drawdowns say the same thing, and they need no model at all.** Not the one-year windows above, just the worst peak-to-trough fall each name actually suffered over the five years: Cheniere −26%, Itron −48%, NVIDIA −66%, Adobe −72%. The floored name fell least. The names whose return rides on a multiple fell two to three times as far. That Cheniere, the one carried by contracted cash, took the shallowest fall is the whole thesis in a single number, and it needs no regression to see.
 
@@ -116,12 +121,12 @@ Entry date mattered five times as much on NVIDIA as on Cheniere, and Cheniere's 
 
 The R-squared runs from roughly zero on Cheniere, where rates explain almost none of its moves, to 0.16 on Adobe, so read the ranking, not the decimals. The drawdown above says the same thing without any regression at all, which is why I lead with it.
 
-This is the evidence for the claim I could only assert earlier. The textbook DCF said a one-point rate rise should cost a long-duration name about three points more than a short one, 17 against 14. The tape says the long-duration names move something like ten times as much with rates as Cheniere does. The cash flows are the same in both accounts, so the extra is the market repricing those far-out years, the multiple rather than the math. Some of it is just risk appetite, since these are high-beta names that sell off when money gets scared, so I read the multiple as most of that gap, not all of it. Either way it is the piece the arithmetic never captured.
+This is the evidence for the claim I could only assert earlier. The textbook DCF said a one-point rate rise should cost a long-duration name about three points more than a short one, 17 against 14. The tape says the long-duration names move something like ten times as much with rates as Cheniere does. The cash-flow forecast is the same in both accounts, so the gap between what the model says and what the price does is, by construction, the multiple moving. What I cannot do is pin that move cleanly on investors repricing the far-out years. Rates, risk appetite, factor positioning and plain sentiment all run through these high-beta names at once, and the regression cannot separate them. So I will claim only what the ranking supports: the more multiple-dependent names carry more rate sensitivity, and the multiple is doing most of the work the arithmetic never captured.
 
 > **[INSERT IMAGE: charts/duration-spectrum.png]**
-> *Caption: My four equities, ordered by how much of the return rides on the multiple. The entry matters more as you move right.*
+> *Caption: My four equities, ordered by what a bad entry can cost. The entry matters more as you move right.*
 
-Two things decide how much the entry matters, not one: how much of the return rides on the discretionary multiple, and how little floor sits under a bad entry. This chart orders by the second. The rate beta measures how hard the multiple gets marked down when money turns, the leg that decides whether a bad entry actually costs you, which is why NVIDIA, a volatile multiple with no floor, sits at the far end and Cheniere at the near one. Itron sits in the middle for a real reason, not a measurement quirk: its downside is floored, because I am cheap on the current framework and the demand underneath is not discretionary. What the chart cannot show is Itron's other leg, the share of its upside riding on a re-rate that is still ahead, and company-specific rather than rate-driven. That is the Itron section above. The dispersion table, which does not care why a multiple moved, is the cleaner test, and it is the one I lean on.
+This chart orders by the second of the two legs from earlier, the floor. The rate beta measures how hard the multiple gets marked down when money turns, which is what decides whether a bad entry actually costs you, so NVIDIA, a volatile multiple with no floor, sits at the far end and Cheniere at the near one. Itron sits in the middle for a real reason, not a measurement quirk: its downside is floored, because I am cheap on the current framework and the demand underneath is not discretionary. What the beta cannot show is Itron's first leg, the share of its upside riding on a re-rate that is still ahead, and company-specific rather than rate-driven. That is the Itron section above. The spread of one-year outcomes at the top of the post, which does not care why a multiple moved, is the cleaner test, and it is the one I lean on.
 
 One last cut, because it is the rule the chart crowd actually uses. There is a well-worn line, usually hung on Charlie Munger though the quote is almost certainly apocryphal, that you buy quality names when they fall to their 200-week moving average. The 200-week part matters, and it is the part people get wrong by reaching for the 200-day, as I did at first. A quality name touches its 200-day line constantly. It touches its 200-week line only in a real dislocation. Run the 200-week line on the four names with price histories and it flags exactly one. Itron sits about 4% below its 200-week line today. Cheniere trades 44% above its line and NVIDIA 77% above, and neither has been near it in five years. Adobe sits 34% below a 200-week line dragged up by three years of $400-to-$600 prices that are not coming back, a lagging average, not a buy signal. The rule points at the one name where the re-rate has not happened, and says nothing on the names carried by growth or capped by a floor. One firing across five years is an observation, not a test. A real test of whether the rule works wants fifteen years and a cross-section of names, and that is a separate post.
 
@@ -129,7 +134,7 @@ Read against this, the survey answers stop arguing. The investors who use charts
 
 ## What would change my mind
 
-The framework makes one prediction: entry timing should matter more on the names where the return rides on a multiple than on the ones paid in cash. The dispersion table is where that gets tested. Had Cheniere's one-year outcomes varied as much by entry date as NVIDIA's, the prediction would be false and the framework with it. Instead Cheniere's spread is a fifth of NVIDIA's. And a chart alone is never a reason to buy: it only tells you whether the multiple is depressed, which matters once you have already decided the business is worth owning.
+The framework makes one prediction: entry timing should matter more on the names where the return rides on a multiple than on the ones paid in cash. The spread of one-year outcomes at the top is where that gets tested. Had Cheniere's one-year outcomes varied as much by entry date as NVIDIA's, the prediction would be false and the framework with it. Instead Cheniere's spread is a fifth of NVIDIA's. And a chart alone is never a reason to buy: it only tells you whether the multiple is depressed, which matters once you have already decided the business is worth owning.
 
 ## The close
 
@@ -156,9 +161,10 @@ So the question is not whether to time your entries. It is which of your positio
 
 ## Open calls for Darren
 
-1. **Title**: pick a paradox version up top, or riff.
-2. **Closing question**: keep or cut (editors split).
+1. ~~**Title**~~: locked. "When to Buy Is a Duration Question," with "On Most Names, Your Entry Price Is Noise" as the Note/social hook.
+2. **Closing question**: still the one open editorial split, see the note above the close. Keep or cut.
 3. **Survey quotes**: I pulled the named handles out of the body after your note about naming people, and framed the two camps without them. Say if you want specific quotes (InvesTeacher, DiviStock, etc.) put back in, or kept anonymous.
-4. **WPM**: left as a "separate post" aside rather than a sixth name, since it has cash flows and does not fit the no-chart endpoint. Add it as its own spectrum point, or keep the aside?
-5. **Live rotation**: still optional. You trimmed LNG and ADBE into gold this week. One honest line would make it read as a live decision.
-6. **Charts**: building the dispersion chart and the Itron 200-week chart in your house style now.
+4. ~~**WPM**~~: kept as a "separate post" aside, not a sixth name. Spine for that post is in HANDOVER.md.
+5. ~~**Live rotation**~~: in, framed as the framework changing my sizing rather than scoring a call.
+6. ~~**Charts**~~: all five built in house style (dispersion hero, Itron 200-week, betas table, spectrum, entry table inline).
+7. **De-polish pass**: ~8–10 balanced-opposition sentences flagged in HANDOVER.md, not yet run. Your call whether I run it or you read first.
