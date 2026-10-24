@@ -28,8 +28,10 @@ for yi,(name,wlo,med,whi,col) in zip(y,rows):
     ax.scatter([med],[yi],color="white",edgecolor=col,s=90,lw=2.5,zorder=4)
     ax.annotate(f"{wlo:+d}%",(wlo,yi),xytext=(-11,0),textcoords="offset points",va="center",ha="right",color="#666",fontsize=10.5)
     ax.annotate(f"{whi:+d}%",(whi,yi),xytext=(12,0),textcoords="offset points",va="center",ha="left",fontweight="bold",color=INK,fontsize=11.5)
-# one 'median' callout on the top row so the ring is unambiguous
-ax.annotate("median",(62,y[0]),xytext=(0,-15),textcoords="offset points",ha="center",va="top",fontsize=9,color="#9a9a9a")
+# teaching labels on the top (NVIDIA) row so a reader knows what the marks are
+ax.annotate("worst 1-yr return",(-55,y[0]),xytext=(0,-15),textcoords="offset points",ha="center",va="top",fontsize=8.5,color="#9a9a9a")
+ax.annotate("median",(62,y[0]),xytext=(0,-15),textcoords="offset points",ha="center",va="top",fontsize=8.5,color="#9a9a9a")
+ax.annotate("best 1-yr return",(305,y[0]),xytext=(0,-15),textcoords="offset points",ha="center",va="top",fontsize=8.5,color="#9a9a9a")
 ax.set_yticks(y); ax.set_yticklabels([r[0] for r in rows],fontsize=12,color="#2b2b2b")
 ax.set_xlim(-98,345); ax.set_xticks([-50,0,50,100,150,200,250,300])
 ax.set_xticklabels(["-50%","0","+50%","+100%","+150%","+200%","+250%","+300%"],color="#666",fontsize=9.5)
@@ -85,42 +87,36 @@ fig.subplots_adjust(left=0.075,right=0.91,top=0.80,bottom=0.11)
 fig.savefig("charts/itron-200week.png",facecolor="white"); print("wrote charts/itron-200week.png")
 
 # ---------- Chart 3: the duration / entry-timing spectrum ----------
-# names placed by |rate beta| (resilience). Gold is the conceptual far end.
-pts=[("Cheniere\n(LNG)",1.6,18,NAVY,'up'),
-     ("Itron\n(ITRI)",10.6,33,NAVY,'up'),
-     ("Adobe\n(ADBE)",15.7,38,SLATE,'down'),
-     ("NVIDIA\n(NVDA)",16.2,91,ORANGE,'up')]
-fig,ax=plt.subplots(figsize=(10.2,5.1))
-# baseline arrow
-ax.annotate("",xy=(20.8,0),xytext=(-0.6,0),
-    arrowprops=dict(arrowstyle="-|>",color="#9aa6b4",lw=2.2))
-for name,bx,sd,col,side in pts:
-    ax.scatter([bx],[0],s=150,color=col,zorder=5,edgecolor="white",lw=1.5)
-    if side=='up':
-        ax.annotate(name,(bx,0),xytext=(0,30),textcoords="offset points",ha="center",va="bottom",
-            fontsize=11.5,fontweight="bold",color=INK)
-        ax.annotate(f"β −{bx:.1f}%   σ {sd}",(bx,0),xytext=(0,16),textcoords="offset points",
-            ha="center",va="bottom",fontsize=9,color="#777")
-    else:
-        ax.annotate(name,(bx,0),xytext=(0,-34),textcoords="offset points",ha="center",va="top",
-            fontsize=11.5,fontweight="bold",color=INK)
-        ax.annotate(f"β −{bx:.1f}%   σ {sd}",(bx,0),xytext=(0,-18),textcoords="offset points",
-            ha="center",va="top",fontsize=9,color="#777")
-# gold note: it is off this axis, not at the end of it
-ax.text(0.985,0.60,"Gold sits off this axis:\nno cash flows, no multiple",transform=ax.transAxes,
+# evenly spaced in order (a concept diagram, not a scatter), so it reads at a glance.
+pts=[("Cheniere (LNG)","barely moves with rates","β −1.6%",NAVY),
+     ("Itron (ITRI)","moves ~7x more","β −10.6%",NAVY),
+     ("Adobe (ADBE)","moves ~10x more","β −15.7%",SLATE),
+     ("NVIDIA (NVDA)","moves ~10x more","β −16.2%",ORANGE)]
+xpos=[0,1,2,3]
+fig,ax=plt.subplots(figsize=(10.4,4.8))
+ax.annotate("",xy=(3.6,0),xytext=(-0.55,0),arrowprops=dict(arrowstyle="-|>",color="#9aa6b4",lw=2.4))
+for x,(name,plain,beta,col) in zip(xpos,pts):
+    ax.scatter([x],[0],s=170,color=col,zorder=5,edgecolor="white",lw=1.6)
+    ax.annotate(name,(x,0),xytext=(0,34),textcoords="offset points",ha="center",va="bottom",
+        fontsize=12,fontweight="bold",color=INK)
+    ax.annotate(plain,(x,0),xytext=(0,16),textcoords="offset points",ha="center",va="bottom",
+        fontsize=9.3,color="#777")
+    ax.annotate(beta,(x,0),xytext=(0,-16),textcoords="offset points",ha="center",va="top",
+        fontsize=9.3,color="#777")
+# gold note: off the axis, not at the end of it
+ax.text(0.99,0.98,"Gold sits off this axis: no cash flows, no multiple",transform=ax.transAxes,
     ha="right",va="top",fontsize=9,color="#b08a2e",style="italic")
-# pole labels, pinned to the bottom corners so they clear the markers
-ax.text(0.015,0.03,"COMMITTED CASH\nrate-resilient · timing is noise",transform=ax.transAxes,
+# plain-language poles
+ax.text(0.0,0.07,"COMMITTED CASH\nyou are paid regardless · timing is noise",transform=ax.transAxes,
     ha="left",va="bottom",fontsize=9.5,color=NAVY,fontweight="bold")
-ax.text(0.985,0.03,"DISCRETIONARY MULTIPLE\nrate-sensitive · timing is the trade",transform=ax.transAxes,
+ax.text(1.0,0.07,"DISCRETIONARY MULTIPLE\nreturn rides on a re-rate · timing is the trade",transform=ax.transAxes,
     ha="right",va="bottom",fontsize=9.5,color=ORANGE,fontweight="bold")
-ax.set_xlim(-1.5,22); ax.set_ylim(-1.7,1.0)
-ax.axis("off")
-fig.suptitle("The entry decides the most where the return rides on the multiple",
+ax.set_xlim(-0.75,3.95); ax.set_ylim(-1.5,1.0); ax.axis("off")
+fig.suptitle("The more your return rides on the multiple, the more the entry decides",
     fontsize=15,fontweight="bold",color=INK,x=0.03,ha="left",y=0.96)
-fig.text(0.03,0.855,"Each name placed by how hard it moves with the ten-year yield (β per +100bp). σ is the spread of one-year outcomes by entry date.",
+fig.text(0.03,0.85,"My four equities, ordered by how hard each moves with interest rates, a proxy for how much of the return is the multiple.",
     fontsize=10.4,color="#666",va="bottom")
-fig.text(0.03,0.02,"Rate betas (β per +100bp) from a 60-month regression of monthly returns on the change in the 10-year. Source: LSEG; author's calculations.",
+fig.text(0.03,0.02,"β is the move per +1 point in the 10-year, from a 60-month regression. Source: LSEG; author's calculations.",
     fontsize=9,color="#888",style="italic")
-fig.subplots_adjust(left=0.03,right=0.97,top=0.76,bottom=0.12)
+fig.subplots_adjust(left=0.03,right=0.97,top=0.78,bottom=0.12)
 fig.savefig("charts/duration-spectrum.png",facecolor="white"); print("wrote charts/duration-spectrum.png")
