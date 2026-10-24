@@ -79,7 +79,7 @@ for s in ["top","right"]: ax.spines[s].set_visible(False)
 ax.grid(axis="y",color=GRID,lw=0.8,zorder=0)
 fig.suptitle("Itron repriced the earnings, not the business",
     fontsize=15.5,fontweight="bold",color=INK,x=0.065,ha="left",y=0.965)
-fig.text(0.065,0.875,"The 26% pop on the Q2 print has fully faded. The stock sits back on its 200-week line, with the re-rate still ahead.",
+fig.text(0.065,0.875,"The 26% pop on the Q2 print has all but faded. The stock sits back on its 200-week line, with the re-rate still ahead.",
     fontsize=10.6,color="#666",va="bottom")
 fig.text(0.065,0.015,"Daily closes and 200-week moving average, Apr 2025–Oct 2026. Source: LSEG; author's calculations.",
     fontsize=9,color="#888",style="italic")
