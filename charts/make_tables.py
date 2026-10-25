@@ -53,3 +53,12 @@ table("table-betas.png","Sensitivity to the 10-Year Yield",
        ["Adobe (ADBE)","−15.7%","0.16"],
        ["NVIDIA (NVDA)","−16.2%","0.10"]],
       "60-month regression of monthly returns on the monthly change in the 10-year yield, Oct 2021–Oct 2026. Source: LSEG; author's calculations.",cw=8.0)
+
+table("table-entries.png","My Entries vs the October 23 Close",
+      ["Name","My entry","Now","Change"],
+      ["left","right","right","right"],[0.40,0.20,0.20,0.20],
+      [["Cheniere (LNG)","$272.03","$298.67","+9.8%"],
+       ["Adobe (ADBE)","$274.14","$263.82","−3.8%"],
+       ["NVIDIA (NVDA)","$179.78","$210.96","+17.3%"],
+       ["Itron (ITRI)","$92.74","$87.65","−5.5%"]],
+      "Author's entry prices; closes via LSEG, October 23 2026. Source: LSEG; author's positions.",cw=8.0)
