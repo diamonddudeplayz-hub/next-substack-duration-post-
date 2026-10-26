@@ -52,3 +52,20 @@ BMI's *first* Investor Day in 121 years. Framing (Noverini): "the evolution… f
 Sales $235.9M (flat YoY; base ex-UDlive –2% YoY, +5% QoQ). GM 41.9% (+120bps; base 42.1%, top of range). Op margin 20.2% (+60bps). EPS $1.24 (+4%). FCF $40.3M. Buyback $55M / 423k sh (TTM >$130M, ~$35M left). Dividend +10% in Aug (34th yr). Q4 guide: modest sequential + YoY growth; **FY organic down low-single-digits**; high-single-digit the long-term algo. Risk flagged: escalating electronic-component cost/availability from AI/data-center buildout (crosscurrent — same AI load that fuels ITRI's grid thesis pressures meter-maker input costs).
 
 ⚠️ TIKR "Efficiency" block (GM 28.6%, EBIT 7.7%) contradicts the call (41.9% GM, 20.2% op margin) — mis-scraped/different definition. Use transcript figures; verify TIKR before quoting.
+
+## Why BMI's multiple > ITRI's — historically (TIKR, NTM P/E)
+
+| | Q1'24 | Q2'25 | Q4'25 | Q2'26 | Q3'26 | Now |
+|---|---|---|---|---|---|---|
+| NTM P/E | 45.8x | **49.2x** (peak) | 33.1x | 30.9x | **25.9x** (trough) | 32.1x |
+| Price | $162 | $245 | $174 | $148 | $124 | $156 |
+
+**The premium is shrinking, not fixed.** BMI de-rated ~45% off its 2025 peak (stock $245→$124, P/E 49x→26x) — the "water SaaS premium" is conditional, not granted.
+
+**It compressed because growth rolled over.** Last 3-yr EPS CAGR **28.5%** → forward 2-yr EPS CAGR **2.0%** (rev 3.2%, EBITDA 2.8%). LTM EPS peaked $4.79 (Q3'25), flat-to-down (~$4.3) since. Market still pays 32x largely on the *memory* of 25%+ growth + reputation.
+
+**It's a certainty premium, not a growth premium:**
+- Earned part — 34-yr Dividend Aristocrat, >100% FCF conversion, ~33% 3-yr ROIC, 0.64 beta, 100% software attach, pure-play water, light B/S (2.1x), and a *disclosed framework* the Street can model.
+- ITRI = mirror-image profile the market discounts: lumpy regulatory-calendar revenue, 2.3x leverage, ARR 3 quarters old w/ no segment framework, FY modeled flat-to-down.
+
+**Punchline:** BMI = 32x for ~2% fwd EPS growth; ITRI = ~13x with ARR +21%. The gap is an **uncertainty-discount** gap, not a growth gap. Cure for ITRI: shrink the discount (framework + sustained ARR), not grow faster. **Caution:** BMI proves the premium is *rented* — 49x→26x the moment growth disappointed. ITRI's re-rate is earned quarter-by-quarter by the ARR print holding.
