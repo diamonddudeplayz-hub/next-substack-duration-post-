@@ -69,3 +69,13 @@ Sales $235.9M (flat YoY; base ex-UDlive –2% YoY, +5% QoQ). GM 41.9% (+120bps; 
 - ITRI = mirror-image profile the market discounts: lumpy regulatory-calendar revenue, 2.3x leverage, ARR 3 quarters old w/ no segment framework, FY modeled flat-to-down.
 
 **Punchline:** BMI = 32x for ~2% fwd EPS growth; ITRI = ~13x with ARR +21%. The gap is an **uncertainty-discount** gap, not a growth gap. Cure for ITRI: shrink the discount (framework + sustained ARR), not grow faster. **Caution:** BMI proves the premium is *rented* — 49x→26x the moment growth disappointed. ITRI's re-rate is earned quarter-by-quarter by the ARR print holding.
+
+## Key twist: BMI does NOT disclose formal ARR — ITRI out-discloses it
+
+Per the Q3 call + May Investor Day transcripts, BMI reports **no formal ARR metric**. It discloses: "SaaS revenue" ~$75M today / $150M-by-2030 target, 100% BEACON attach rate, ~28% 5-yr software CAGR (backward-looking) — and Ken explicitly **refused segmentation** ("no plans to start doing segmentation"). No ARR KPI, no net retention, no segment recurring split, no quarterly recurring growth rate.
+
+So ITRI (formal ARR $417M +21%, a primary 10-K metric) **out-discloses a company trading at 2.4x its multiple.** ⇒ The 32x-vs-13x gap is NOT a recurring-disclosure-granularity gap. BMI gets paid for a **legible consolidated algorithm** (6–8% organic, 39–42% GM, >100% FCF conversion, double-digit software) + predictability (0.64 beta) + a 34-yr track record — modelable end-to-end *without* an ARR line.
+
+**Implication for the thesis (sharper version):** the ARR line was never the catalyst — ITRI introduced ARR 3 quarters ago and didn't re-rate; BMI gets the premium with no ARR at all. What closes the gap is **trust that a forward framework is durable and modelable**, not the metric itself. The Investor Day matters because it's management staking credibility to a multi-year framework (BMI-style), + a few quarters of ARR *holding* — not because it hands analysts an ARR SOTP to plug in.
+
+⚠️ Verify against BMI's actual 10-K/10-Q/IR slides before writing "BMI doesn't disclose ARR" — some firms bury recurring-revenue/RPO in filings even if they skip it on the call. This note is from the transcripts only.
