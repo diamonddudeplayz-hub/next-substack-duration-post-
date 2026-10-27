@@ -16,7 +16,7 @@ The thesis lives or dies on this. Q2 decelerated 28% → 21% YoY. **Q3 is the te
 | Q4 2025 | $368M | +20% | — |
 | Q1 2026 | $414M | +28% | — |
 | Q2 2026 | $417M | +21% | **+$3M** ← the soft spot |
-| **Q3 2026** | **$____M** | **___%** | **$___M** |
+| **Q3 2026** | **$423M** ✅ | **+25%** (reaccel) | **+$6M** |
 
 - **Break condition:** <15% YoY for **two consecutive** quarters → exit review. Q2 came in 21%, so Q3 is the first of a possible two-quarter clock only if it prints <15%.
 - **What good looks like:** ≥20% YoY and a healthy QoQ dollar add (the +$3M QoQ in Q2 is what to beat — sequential dollars matter as much as the YoY%).
