@@ -40,5 +40,24 @@ Q3'25 $1.54 → Operating income **+$0.38** → Interest income **−$0.14** →
 - Net leverage **1.9x**; liquidity ~$1.56B ($840M cash + $722M revolver). Debt: $805M 1.375% converts (2030) + $805M 0% converts (2032).
 - Pepco/Exelon DER expansion (flexible load into PJM).
 
+## Beat vs EXPECTATIONS (LSEG consensus, as of 27-Oct-2026)
+- **Q3 EPS: $1.94 actual vs $1.56 consensus (mean; SmartEst $1.566) → +$0.38 / +24%.** Third straight ~20%+ beat of 2026: Q1 $1.49 vs $1.25 (+19%), Q2 $1.59 vs $1.29 (+23%), Q3 +24%. The beat pattern = measurement lag in the estimate record (analysts under-forecast every quarter, modeling hardware, missing margin leverage).
+- **FY26 guide $6.72–6.82 (mid $6.77) vs prior consensus mean $6.37 → +6.3%; midpoint sits ABOVE the prior Street HIGH of $6.72.** Entire guided range ≥ the most bullish analyst.
+- Street consensus going in ($6.37) was a **−10.7% decline** vs FY25 actual $7.13 → "Street models declining earnings" is literally true. Guide = −5% headline / +14% normalized.
+- **Honest caveat:** Q4 guide mid $1.75 is slightly BELOW Q4 consensus $1.77 → the raise banks the Q3 beat; Q4 in-line-to-light (OpEx normalization). Include it for credibility.
+- FY27 consensus ~$7.00, FY28 ~$8.02 (Street models recovery, just won't credit it now). Bears: Guggenheim/Osha FY26 $5.21, Equisights $5.33 drag the mean; mainstream desks cluster $6.37–6.49.
+
+## "What is 13x discounting?" angle (CEO says inevitable; market says finished)
+At ~$90 / ~$7 fwd EPS = ~13x ≈ 0.65x S&P's ~20x, for a name that historically traded at a PREMIUM to the market. 13x = no-growth/low-quality mature cyclical multiple. Test the candidates:
+1. "Margins cyclical" → rebutted (structural, 4-yr climb, OI +20% on +3% rev); component costs the one real risk.
+2. "Revenue permanently flat" → ARR +25%, Q4 rev guide +10%, gas/TX-CA ahead.
+3. "Recurring is just services" → 74% GM, deferred rev compounding, >25% backlog software.
+4. Rates (5% 10yr) → compresses ALL multiples, but ITRI's discount to market WIDENED, so not ITRI-specific.
+⇒ Survivor = the thesis: **13x is the price of illegibility, not disbelief** — no framework to model the software layer, so the multiple defaults to the hardware P&L it CAN model. CEO's "inevitable" is info the market holds but can't act on until the Investor Day makes it legible.
+**Conservative-framing kill-shot:** you don't need the software re-rate. Management's own floor — grid-intelligence/AMI 2.0 modernization ("inevitable") — NECESSARILY produces the software growth (DI endpoints → apps → Outcomes ARR); grid intelligence IS the delivery mechanism. "Grid shift" and "software shift" are one bet seen from both ends. 13x discounts NEITHER — prices ITRI as if the last two years were the peak and nothing compounds. Anchor: software layer implied at ~6–8x EV/ARR, below every software comp and below Badger's whole-company 4.4x revenue.
+
+## Stock reaction (Oct 27)
+Intraday low **$85.25** (−~3%) → recovered to **$90.43 (+3.08%)** by 12:31pm; [FINAL CLOSE: $TK]. The round-trip re-enacts the thesis: sold on headlines (EPS "down," Q4 guide light, 0.80x bookings), bought on substance (ARR +25%, structural margins, guide above Street high). 1-yr context: ITRI was ~$136 a year ago (pre-Q3'25-earnings crash), ground to $78 (May'26), Q2 pop to $107, faded to $85 — a year of dead money / persistent de-rate (partly macro/rates). Honest: the mispricing has persisted and widened for a year ("cheap getting cheaper").
+
 ## Pitch refresh (Chartwell deck was written at $106, pre-print)
 ARR $417M→$423M (+25%); endpoints 17.5M→19.4M; stock $106→~$90 (reverse-SOTP EV/ARR on software layer compressed <8.6x — discount widened); break dashboard all improved — ARR buffer 10pts over 15% (was 6), leverage 1.9x (was 2.3x), bookings record +27% / TTM B2B 0.97; cross-sell "not started"→"starting."
