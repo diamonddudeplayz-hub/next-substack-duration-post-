@@ -1,0 +1,48 @@
+# ITRI Q3 2026 — deep read (trend + why margins beat on flat revenue)
+
+Source: Q3 2026 8-K (Exhibit 99.1, filed Oct 27 2026) + hand-built quarterly model (FS tab, actuals thru 2Q26; 3Q26 overlaid from release). Verify all figures vs primary source before publishing.
+
+## Core finding: revenue flat, operating structure transformed
+
+Q3'26 vs 3Q24 (two years): revenue **−2.6%** ($615M→$599M), yet non-GAAP operating income **+35%** ($79M→$107M), adj EBITDA **+29%** ($89M→$115M), adj EBITDA margin 14.4%→**19.1%** (+470bps), adj GM ~34%→**41.3%**. Not operating leverage (needs volume) — **mix + structural margin.** The hardware→software fingerprint.
+
+## The segment truth the consolidated line hides
+
+| Segment | ~% rev | Rev trend | GM trend |
+|---|---|---|---|
+| Networked (AMI hardware) | ~60% | $417M(3Q24)→$390M(3Q26), −17% YoY in 2Q26 | 35.9%→41.8% |
+| Device | ~17% | flat/declining (legacy gas) | 27%→35% |
+| Outcomes | ~15% | $76M→$92M (+21%, services-led) | 35%→40% |
+| Resiliency | ~3% | $0→$16M | **74.4%** |
+
+Flat total revenue = Networked (hardware) in a regulatory-timing trough masking a services engine compounding at ~2x company margin. When Networked re-accelerates (TX/CA pipeline), growth returns **on top of** a permanently higher margin base = the coiled spring, visible in the segments.
+
+## The margin beat = 3 structural layers (not just "more services")
+
+1. Mix shift to services: 12.5%→**18.4%** of revenue
+2. Service GM expansion: **44%→53%** (Resiliency 74% + Outcomes software)
+3. Product/hardware GM expansion: 32.6%→38.1% (Networked 36→42, Device 27→35)
+
+Street models one revenue line → misses all three → EBITDA prints "better than modeled" every quarter.
+
+## Services = the ARR engine (model labels it "ARR proxy")
+
+Service rev: $77M(3Q24)→$87M(3Q25)→$110M(3Q26), YoY +20/34/32/26%. ARR: $368M(4Q25)→$414M→$417M→**$423M (3Q26, +25%)** — reaccelerated off the 2Q (21%) scare, break line is 15% two consecutive quarters. Deferred (unearned) revenue $219M, +~18% YoY = forward recurring booked, not yet recognized.
+
+## Quality of the beat + the EPS-optics trap (post-worthy)
+
+Non-GAAP EPS $1.94 vs ~$1.57 cons (+24%). BUT 2-yr: non-GAAP EPS only $1.84→$1.94 while op income +35%. Two below-the-line drags masked it:
+- **Interest income $13.4M→$7.2M** — cash pile deployed into Locusview + **Urbint** (software M&A that *added* the ARR). Traded ~$6M/qtr interest for recurring software. Good trade, ugly optics.
+- 3Q24 flattered by near-zero/negative tax.
+
+⇒ Lazy model: "EPS flat 2 yrs, revenue flat → stagnant industrial." Reality: operating engine +35%, overcame a $6M interest headwind, still beat 24%. **The measurement lag isn't only EV/ARR — headline EPS understates the operating transformation because the cash became software.**
+
+## Capital allocation / balance sheet
+- **Zero buyback in Q3** ($152M all H1: $100M Q1 + $52M Q2). At ~$84–88, mildly disappointing; prioritizing delevering post-Urbint/Locusview (~$840M spent).
+- Net debt ~$737M, ~1.8x TTM adj EBITDA (TTM ~$402M). Nowhere near 5.0x break. Current debt $0 (2026 converts retired); LT debt $1.58B.
+
+## Bookings — one yellow light, in context
+$482M bookings, B2B **0.80x**, backlog $4.41B→$4.3B. Bookings are violently lumpy in the model: 4Q25 **$737M/1.29x**, then $476M, $550M, $482M. One 0.80x quarter after a 1.29x quarter = noise. Real signal = **12-month backlog** ($1,680M in 2Q26, up QoQ) — check 3Q 10-Q/call. Total backlog still ~1.9x annual revenue. Break condition (0.8x two consecutive qtrs + pipeline contraction) NOT met.
+
+## Investor Day timing — on rails (~4 months out)
+Hooper separates two events: (1) **'27 annual guidance → Feb Q4 call**; (2) **longer-range segment framework → "shortly thereafter, sometime next year"** = Investor Day, after Resiliency integration (finishing ~Jan). Precedent: 2024 Investor Day announced on Q4'23 call (Feb 26) → held Mar 12, ~2 weeks later. Base case: integration done Jan → Q4 call mid-Feb 2027 (consolidated '27 guide + likely ID announcement) → **Investor Day late Feb/March 2027** with segment-level ARR/margin/growth targets = the EV/ARR SOTP building blocks. The forcing function, now dated.
