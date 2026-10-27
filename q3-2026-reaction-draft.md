@@ -63,7 +63,7 @@ The honest version of that call is the symmetry: the one way the guide is not co
 
 ## What a 13-times multiple is paying for
 
-At about $90, on roughly $7 of forward earnings, Itron trades near 13 times. The S&P 500 trades near 20. Over the last decade Itron's forward multiple has averaged a small premium to the market; at 13 against 20 it now sits about a third below it. Leave the software-valuation argument aside for a moment, because this part does not need it.
+At about $94, on forward earnings near $7, Itron trades about 13 and a half times. The S&P 500 trades near 20. Over the last decade Itron's forward multiple has averaged a small premium to the market; against the market's 20 it now sits about a third below. Leave the software-valuation argument aside for a moment, because this part does not need it.
 
 Deitrich, on the call, called the investment utilities have to make "in our view, inevitable," and said "intelligence is the fastest and least expensive capacity still available." Take that at face value and the question writes itself: why does a company in front of a demand build it calls inevitable trade at a no-growth multiple? The honest answer is that revenue went sideways for two years while management called demand strong. It was $615 million in the third quarter of 2024 and $599 million now. The large conversions have always been described as ahead. On gas, this quarter, Deitrich: "It has not yet shown itself in the bookings and the P&L in any significant way. That's still ahead of us." So the market is not asleep. It has heard "inevitable" for eight quarters and is waiting to see the revenue before it pays for it. Two flat years earned that discount.
 
@@ -89,7 +89,7 @@ None are triggered. Three moved further from their thresholds this quarter. The 
 
 ## Close
 
-The stock opened lower, traded to $85.25 by midday, and closed at [CLOSE: $TK]. The first move was the headline: a 5% earnings decline and a soft-looking fourth-quarter guide. The recovery was someone reading the second line on the slide. I added this morning, into the gap between the two. What closes that gap arrives on one call in February: the Q4 gross margin, which tells me whether the component cycle is biting, and the first 2027 guide, which tells me whether the growth is real. I am holding for both.
+The stock dipped to $85.25 around midday, then closed at $94.55, up 7.77%. The morning was the headline: a 5% earnings decline and a soft fourth-quarter guide. The afternoon was the market reading the second line on the slide. I added this morning. But $94.55 is still near 13 and a half times forward earnings, back to where the stock sat in September and about a third below where it was a year ago. The day repriced the beat. It did not re-rate the business. That comes on one call in February: Q4 gross margin, for whether the component cycle is biting, and the 2027 guide, for whether the growth is real. I'm holding for both.
 
 ---
 
