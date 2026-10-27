@@ -42,7 +42,11 @@ Non-GAAP EPS $1.94 vs ~$1.57 cons (+24%). BUT 2-yr: non-GAAP EPS only $1.84→$1
 - Net debt ~$737M, ~1.8x TTM adj EBITDA (TTM ~$402M). Nowhere near 5.0x break. Current debt $0 (2026 converts retired); LT debt $1.58B.
 
 ## Bookings — one yellow light, in context
-$482M bookings, B2B **0.80x**, backlog $4.41B→$4.3B. Bookings are violently lumpy in the model: 4Q25 **$737M/1.29x**, then $476M, $550M, $482M. One 0.80x quarter after a 1.29x quarter = noise. Real signal = **12-month backlog** ($1,680M in 2Q26, up QoQ) — check 3Q 10-Q/call. Total backlog still ~1.9x annual revenue. Break condition (0.8x two consecutive qtrs + pipeline contraction) NOT met.
+$482M bookings, B2B **0.80x**, backlog $4.41B→$4.3B. Bookings are violently lumpy AND Q4-seasonal: full history 3Q24 $487M, **4Q24 $1,403M (~2.3x)**, 1Q25 $530M, 2Q25 $454M, 3Q25 $380M, **4Q25 $737M (1.29x)**, 1Q26 $476M, 2Q26 $550M, 3Q26 $482M. The two prior Q4s are the two biggest bookings quarters in the dataset (year-end regulatory approvals / budget cycles land the big AMI awards) ⇒ B2B back >1.0x in Q4'26 is the base case, not a hope.
+
+Key defusing number: **TTM book-to-bill ≈ 0.97x** (TTM bookings $2,245M / TTM revenue $2,321M) — essentially balanced even WITH the soft 0.80x Q3, and about to hit its seasonal peak quarter. Real signal = **12-month backlog** ($1,680M in 2Q26, up QoQ) — not in the press release; comes with 10-Q/call. Total backlog still ~1.9x annual revenue. Break condition (0.8x two consecutive qtrs + pipeline contraction) NOT met.
+
+(Model note: Q3 P&L/BS/ARR all tie to the 8-K to the dollar; the bookings/backlog/12-mo-backlog/shipped rows for 3Q26 were still blank as of the last file — drop in bookings $482M, total backlog $4,300M so B2B computes.)
 
 ## Investor Day timing — on rails (~4 months out)
 Hooper separates two events: (1) **'27 annual guidance → Feb Q4 call**; (2) **longer-range segment framework → "shortly thereafter, sometime next year"** = Investor Day, after Resiliency integration (finishing ~Jan). Precedent: 2024 Investor Day announced on Q4'23 call (Feb 26) → held Mar 12, ~2 weeks later. Base case: integration done Jan → Q4 call mid-Feb 2027 (consolidated '27 guide + likely ID announcement) → **Investor Day late Feb/March 2027** with segment-level ARR/margin/growth targets = the EV/ARR SOTP building blocks. The forcing function, now dated.
