@@ -99,3 +99,36 @@ fig.text(0.085,0.875,"Non-GAAP EPS, consensus mean versus reported. The misses d
 fig.text(0.085,0.015,"Consensus from LSEG; reported from Itron earnings releases, 2026.",fontsize=9,color="#888",style="italic")
 fig.subplots_adjust(left=0.085,right=0.95,top=0.80,bottom=0.10)
 fig.savefig("charts/itri-eps-beats.png",facecolor="white"); print("wrote charts/itri-eps-beats.png")
+
+
+# ======================================================================
+# Non-GAAP EPS year-over-year bridge (waterfall)
+# ======================================================================
+fig,ax=plt.subplots(figsize=(8.6,5.2))
+labs=["Q3 2025","Operating\nincome","Interest\nincome","Tax &\nshare count","Q3 2026"]
+# bottoms / heights / colors for a waterfall
+bottoms=[0,1.54,1.78,1.78,0]
+heights=[1.54,0.38,0.14,0.16,1.94]
+cols=[NAVY,SLATE,ORANGE,SLATE,NAVY]
+txt=["$1.54","+$0.38","−$0.14","+$0.16","$1.94"]
+xb=range(5)
+ax.bar(xb,heights,bottom=bottoms,color=cols,width=0.62,zorder=3)
+# connector lines
+tops=[1.54,1.92,1.78,1.94]
+for i in range(4):
+    ax.plot([i+0.31,i+1-0.31],[tops[i],tops[i]],color="#b9c4d2",lw=1,zorder=2)
+for i,(b,h,t) in enumerate(zip(bottoms,heights,txt)):
+    y=b+h+0.03 if i in (0,1,3,4) else b-0.09
+    va="bottom" if i in (0,1,3,4) else "top"
+    col=ORANGE if i==2 else INK
+    ax.annotate(t,(i, (b+h+0.03) if i!=2 else (b-0.02)),ha="center",va="bottom" if i!=2 else "top",
+                fontweight="bold",color=col,fontsize=11.5)
+ax.set_xticks(list(xb)); ax.set_xticklabels(labs,fontsize=10,color="#444")
+ax.set_ylim(0,2.15); ax.set_yticks([0,0.5,1.0,1.5,2.0]); ax.set_yticklabels(["0","$0.50","$1.00","$1.50","$2.00"],color="#555")
+for s in ["top","right"]: ax.spines[s].set_visible(False)
+ax.grid(axis="y",color=GRID,lw=0.8,zorder=0)
+fig.suptitle("The operating line did the work; interest income was the drag",fontsize=14.5,fontweight="bold",color=INK,x=0.085,ha="left",y=0.965)
+fig.text(0.085,0.875,"Non-GAAP EPS year-over-year bridge. Interest income fell because the cash went to software acquisitions.",fontsize=10.5,color="#666",va="bottom")
+fig.text(0.085,0.015,"Source: Itron Q3 2026 earnings presentation, slide 10.",fontsize=9,color="#888",style="italic")
+fig.subplots_adjust(left=0.085,right=0.95,top=0.80,bottom=0.12)
+fig.savefig("charts/itri-eps-bridge.png",facecolor="white"); print("wrote charts/itri-eps-bridge.png")
