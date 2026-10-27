@@ -1,10 +1,12 @@
 # Itron Raised Guidance. The Screen Still Reads a Decline.
 
-*They raised the full-year guide, and the same number screens as a 5% earnings drop. Normalized for a tax comparison and the interest income Itron spent buying recurring revenue, it is up 14%, on the company's own math.*
+*They raised the guide. The same number still screens as a 5% earnings drop. Normalized for tax and interest income, it is up 14%, on the company's own math.*
 
 PRIMARY SOURCE ARBITRAGE · October 27, 2026
 
 ---
+
+For readers new to the series, the case in one paragraph. Itron makes the meters and network equipment utilities run their grids on, and it is turning that installed base into recurring software, analytics and services revenue. It began reporting that as annual recurring revenue, ARR, only four quarters ago. The market still prices Itron as a hardware company, near 14 times this year's earnings, while the recurring line grows in the low twenties and carries much higher margins than the hardware. The re-rating I am waiting for comes when management gives analysts the segment-level targets needed to value the software on its own, which I expect at an investor day in early 2027. This post is what the third quarter did to that case.
 
 ## The short version
 
@@ -15,8 +17,6 @@ PRIMARY SOURCE ARBITRAGE · October 27, 2026
 - **What would prove me wrong.** ARR growth below 15% for two consecutive quarters. Reported is 25%, but acquisitions flatter it and the rate laps below 15% in 2027 on the comparison alone. I re-base the rule on management's forward ARR targets once the Investor Day gives them.
 
 ---
-
-For readers new to the series, the case in one paragraph. Itron makes the meters and network equipment utilities run their grids on, and it is turning that installed base into recurring software, analytics and services revenue. It began reporting that as annual recurring revenue, ARR, only four quarters ago. The market still prices Itron as a hardware company, near 14 times this year's earnings, while the recurring line grows in the low twenties and carries much higher margins than the hardware. The re-rating I am waiting for comes when management gives analysts the segment-level targets needed to value the software on its own, which I expect at an investor day in early 2027. This post is what the third quarter did to that case.
 
 ## The reported quarter
 
@@ -76,25 +76,37 @@ What changed this quarter is that the revenue showed up in the guide, not just t
 ![Inventory](charts/itri-inventory.png)
 *Itron inventory components and product revenue. Raw materials at a two-year high against sales, finished goods at a two-year low, as revenue turns up. Source: Itron 10-Q and 10-K filings, 1Q24 to 3Q26.*
 
-The software version of the case still stands, and I will not rebuild the arithmetic here because earlier posts have it. In short: value Itron's hardware at one times its revenue, a cheap price for a meter maker, and what is left of the market value works out to under eight times the recurring software revenue, when software companies that grow the way this line does trade well above ten. For a same-industry contrast, Badger Meter, a water-meter company with its own software and services layer, trades at 32 times earnings against Itron's 14. The market will pay a premium multiple for a meter company. It has just decided it needs the framework first, and the framework has a date on it now.
+The software version of the case still stands. Value Itron's hardware at one times its trailing product revenue, about $1.9 billion, a cheap price for a meter maker, and the rest of the enterprise value is roughly $3.0 billion on the recurring layer, about 7 times the $423 million of ARR. Software businesses that grow the way this line does trade well above ten. The fuller build is in earlier posts. For a same-industry contrast, Badger Meter, a water-meter company with its own software and services layer, trades at 32 times earnings against Itron's 14. The market will pay a premium multiple for a meter company. It has just decided it needs the framework first, and the framework has a date on it now.
 
 ## The ledger
 
-I set these thresholds in the August post and carry them forward unchanged.
+Rules 1 to 5 carry forward from my August 3 post, word for word.
 
-| Rule | Date set | Metric | Window | Threshold | Action | Status, Q3 2026 |
-|---|---|---|---|---|---|---|
-| 1 | Aug 3 2026 | ARR growth, YoY | 2 consecutive quarters | below 15% | exit review | 25%, up from 21% |
-| 2 | Aug 3 2026 | Net debt / EBITDA | any reported quarter | above 5.0x | exit review | 1.9x |
-| 3 | Aug 3 2026 | Book-to-bill (quarterly), with pipeline contraction | 2 consecutive quarters | below 0.8x | exit review | 0.80x quarterly, at the line not below it; one quarter; 0.97x trailing; pipeline growing, bookings a record |
-| 4 | Aug 3 2026 | Management calls margin "temporary or cyclical" | any call | the characterization | immediate exit | called it "structural" and "not an industrial cycle," Oct 27 2026 |
+1. ARR growth decelerating below 15% YoY for two consecutive quarters. Set August 3, 2026. Action: exit review. Not triggered, and here I am re-basing it in advance. Reported ARR is 25%, but it laps below 15% in 2027 on the acquisition comparison, not a slowdown, and by then Resiliency is in the organic base, so the written test would trip on an artifact. Once the Investor Day gives a segment-level ARR run-rate and target, rule 1 grades on whether ARR is tracking to that target. Until then I watch sequential adds and the cross-sell.
 
-None are triggered. One caveat on rule 1. As written it runs on reported ARR, which is 25% and nowhere near the line. But the reported rate laps below 15% in 2027 on the acquisition comparison, not a slowdown, and by then Resiliency sits in the organic base too, so the written test would trip on an artifact. I am re-basing rule 1 now, before it trips: once the Investor Day gives a segment-level ARR run-rate and target, rule 1 grades on whether ARR tracks to that target; until then I watch sequential adds and the cross-sell. Graded as written, rule 1 is intact; the honest version waits on the framework. The Investor Day timing is a catalyst, not a rule: if it has not been scheduled by the Q1 2027 call, the thesis extends, it does not end.
+2. Net debt above 5.0x EBITDA on any reported quarter. Set August 3, 2026. Action: exit review. Not triggered. 1.9x.
+
+3. Investor Day delayed beyond Q1 2027 extends the thesis; it does not end it. Set August 3, 2026. Action: extend, not exit. Not triggered. Expected around March 2027, after the Resiliency integration completes in early January; 2027 guidance comes on the February call.
+
+4. Book-to-bill below 0.8x for two consecutive quarters with simultaneous pipeline contraction, pipeline itself declining, not soft bookings against a growing pipeline. Set August 3, 2026. Action: exit review. Not triggered. Quarterly book-to-bill 0.80x, at the line, not below it, and one quarter; trailing 0.97x; pipeline growing and bookings a record.
+
+5. Management publicly characterising the margin improvement as temporary or cyclical rather than structural. Set August 3, 2026. Action: immediate exit. Not triggered. Deitrich called it "structural" and "not an industrial cycle," Q3 2026 call, October 27, 2026.
+
+What re-rates Itron first: the Investor Day framework, or the revenue inflecting on its own? I would like to know which one readers are watching.
 
 ## Close
 
-The stock dipped to $85.25 around midday, then closed at $94.55, up 7.77%. The morning was the headline: a 5% earnings decline and a soft fourth-quarter guide. The afternoon was the market reading the second line on the slide. I added this morning. But $94.55 is still about 14 times this year's earnings, back to where the stock sat in September and about a third below its price a year ago. The day repriced the beat. It did not re-rate the business. That comes on one call in February: Q4 gross margin, for whether the component cycle is biting, and the 2027 guide, for whether the growth is real. I'm holding for both.
+The stock dipped to $85.25 around midday, then closed at $94.55, up 7.77%. The morning traded the headline: full-year earnings that screen down 5%, and a Q4 EPS line that screens down 29%. The afternoon traded the second line on the slide, and the quarter underneath it. I added this morning. But $94.55 is still about 14 times this year's earnings, back to where the stock sat in September and about a third below its price a year ago. The day repriced the beat. It did not re-rate the business. That comes on one call in February: Q4 gross margin, for whether the component cycle is biting, and the 2027 guide, for whether the growth is real. I'm holding for both.
 
 ---
 
-*Disclosure: I hold a position in Itron and added to it on October 27, 2026. This is not investment advice. Sources: Itron Q3 2026 earnings release and Form 8-K, October 27, 2026; Itron Q3 2026 earnings presentation, slides 6-17; Itron Q3 2026 earnings call transcript, Deitrich and Hooper, October 27, 2026; Itron quarterly segment, inventory and backlog data, Q1 2021 to Q3 2026, from Itron 10-Q and 10-K filings; LSEG consensus estimate detail, accessed October 27, 2026; prior Itron coverage ("My Biggest Position Went Up 26% in One Day. Here's Why It Wasn't Enough," August 3, 2026) for the relative-multiple history; S&P 500 forward P/E from LSEG and ITRI forward multiple from TIKR, October 2026; Badger Meter (BMI) Q3 2026 results and forward multiples from TIKR, accessed October 2026; price data from Yahoo Finance and TIKR, October 27, 2026.*
+*Disclosure: I hold a position in Itron and added to it on October 27, 2026. This is not investment advice.*
+
+Sources:
+
+* Itron Q3 2026 earnings release and Form 8-K, October 27, 2026; Q3 2026 earnings presentation, slides 6 to 17; Q3 2026 earnings call, Deitrich and Hooper, October 27, 2026.
+* Itron quarterly segment, inventory and backlog data, Q1 2021 to Q3 2026, from Itron 10-Q and 10-K filings.
+* LSEG consensus estimate detail, accessed October 27, 2026; S&P 500 forward P/E from LSEG; ITRI forward multiple from TIKR, October 2026.
+* Prior Itron coverage ("My Biggest Position Went Up 26% in One Day. Here's Why It Wasn't Enough," August 3, 2026) for the relative-multiple history and the break-condition ledger.
+* Badger Meter (BMI) Q3 2026 results and forward multiples, TIKR, October 2026.
+* Price data from Yahoo Finance and TIKR, October 27, 2026.
