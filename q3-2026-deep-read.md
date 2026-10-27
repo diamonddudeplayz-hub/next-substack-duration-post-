@@ -17,6 +17,22 @@ Q3'26 vs 3Q24 (two years): revenue **−2.6%** ($615M→$599M), yet non-GAAP ope
 
 Flat total revenue = Networked (hardware) in a regulatory-timing trough masking a services engine compounding at ~2x company margin. When Networked re-accelerates (TX/CA pipeline), growth returns **on top of** a permanently higher margin base = the coiled spring, visible in the segments.
 
+## Margin bridge: what "operational efficiencies" actually is (350bps decomposed)
+
+Mgmt attributes the +350bps adj GM to "customer and product mix + operational efficiencies." Decomposing the +354bps (3Q25→3Q26) by segment:
+
+| Segment | wt 25→26 | adj GM 25→26 | Rate (own-margin) | Mix (weight) |
+|---|---|---|---|---|
+| Device | 17.8→16.9% | 30.9→35.4% | **+80b** | +2b |
+| Networked | 67.7→65.0% | 39.3→41.8% | **+166b** | −11b |
+| Outcomes | 14.5→15.4% | 38.9→40.0% | +16b | +2b |
+| Resiliency | 0→2.7% | →74.4% | +0b | **+98b** |
+| **Total** | | 37.7→41.3% | **+262b (74%)** | **+91b (26%)** |
+
+**~74% of the lift is within-segment margin expansion, and ~246b of that is the two HARDWARE segments (Networked + Device) — NOT the software mix.** Only ~26% (~90b) is the Resiliency/services mix. So "operational efficiencies" ≈ hardware cost/pricing improvement. Device is the clean tell: ~99.5% product, GM 27.2%→35.4% over 2yr (+820b) — can only be component-cost normalization *(cyclical)* + restructuring/value-engineering/yield *(durable)* + Gen6 product mix + pricing. Networked's steady 35.9%→42.8% over 2yr argues mostly structural.
+
+**Thesis nuance (carry into post):** the ~90b of MIX is the smaller but most durable, compounding, component-cycle-IMMUNE piece (grows as services gain share). The ~262b of hardware "efficiency" is real + multi-year but has a cyclical tail — component costs, which **BMI's Q3 call flagged are re-escalating on AI/data-center demand.** Honest framing: this quarter's margin beat is ~25% software mix / ~75% broad-based (hardware-led) improvement. Broad-based is *stronger* vs a skeptic, but don't overclaim "the software transition drove margins" — mix is the minority this quarter (and the durable spine going forward).
+
 ## The margin beat = 3 structural layers (not just "more services")
 
 1. Mix shift to services: 12.5%→**18.4%** of revenue
