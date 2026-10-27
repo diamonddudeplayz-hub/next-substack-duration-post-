@@ -10,8 +10,8 @@ plt.rcParams.update({"font.family":"DejaVu Sans","font.size":12,
 
 # --- data: Itron inventory components + product revenue, $M (10-Q/10-K) ---
 q    = ["1Q24","2Q24","3Q24","4Q24","1Q25","2Q25","3Q25","4Q25","1Q26","2Q26","3Q26"]
-rawm = [205.9,210.4,195.0,199.0,205.9,222.6,199.5,184.7,184.1,200.4,229.5]
-fg   = [ 54.6, 47.3, 66.4, 55.1, 59.6, 45.2, 40.6, 44.6, 44.1, 45.4, 37.1]
+rawm = [209.9,201.7,195.0,199.0,205.9,222.6,199.5,184.7,184.1,200.4,229.5]
+fg   = [ 63.3, 75.5, 66.4, 55.1, 59.6, 45.2, 40.6, 44.6, 44.1, 45.4, 37.1]
 prod = [527.8,532.9,538.2,532.4,523.1,517.2,494.3,474.3,477.8,453.5,489.0]
 x=list(range(len(q)))
 
@@ -46,7 +46,7 @@ ax1.grid(axis="y",color=GRID,lw=0.8,zorder=0)
 
 fig.suptitle("Components in, finished goods out",fontsize=15.5,fontweight="bold",
              color=INK,x=0.085,ha="left",y=0.965)
-fig.text(0.085,0.875,"Raw materials at a two-year high against sales, finished goods at a two-year low, as revenue turns up.",
+fig.text(0.085,0.875,"Raw materials at a five-year high, finished goods at their lowest since 2022, as revenue turns up.",
          fontsize=10.5,color="#666",va="bottom")
 fig.text(0.085,0.015,"Itron inventory components and product revenue, $M, 1Q24-3Q26. Source: Itron 10-Q and 10-K filings.",
          fontsize=9,color="#888",style="italic")
