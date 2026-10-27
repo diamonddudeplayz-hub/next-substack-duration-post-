@@ -52,3 +52,50 @@ fig.text(0.085,0.015,"Itron inventory components and product revenue, $M, 1Q24-3
          fontsize=9,color="#888",style="italic")
 fig.subplots_adjust(left=0.10,right=0.84,top=0.80,bottom=0.11)
 out="charts/itri-inventory.png"; fig.savefig(out,facecolor="white"); print("wrote",out)
+
+
+# ======================================================================
+# ARR build + YoY growth
+# ======================================================================
+fig,ax=plt.subplots(figsize=(8.6,5.2))
+qa=["4Q25","1Q26","2Q26","3Q26"]; arr=[368,414,417,423]; yoy=[20,28,21,25]
+colors=[NAVY,NAVY,NAVY,ORANGE]
+xa=range(len(qa))
+ax.bar(xa,arr,color=colors,width=0.6,zorder=3)
+for i,(v,g) in enumerate(zip(arr,yoy)):
+    ax.annotate(f"${v}M",(i,v),xytext=(0,6),textcoords="offset points",ha="center",
+                fontweight="bold",color=INK,fontsize=12)
+    ax.annotate(f"+{g}% YoY",(i,v/2),ha="center",va="center",color="white",fontsize=10.5,fontweight="bold")
+ax.set_xticks(list(xa)); ax.set_xticklabels(qa,fontsize=10.5,color="#444")
+ax.set_ylim(0,470); ax.set_yticks([0,100,200,300,400]); ax.set_yticklabels(["0","$100M","$200M","$300M","$400M"],color="#555")
+for s in ["top","right"]: ax.spines[s].set_visible(False)
+ax.grid(axis="y",color=GRID,lw=0.8,zorder=0)
+fig.suptitle("ARR reaccelerated after the Q2 scare",fontsize=15.5,fontweight="bold",color=INK,x=0.085,ha="left",y=0.965)
+fig.text(0.085,0.875,"Annual recurring revenue, with year-over-year growth. Q2's slip to 21% from 28% did not become a trend.",fontsize=10.5,color="#666",va="bottom")
+fig.text(0.085,0.015,"Itron reported ARR, 4Q25-3Q26. Source: Itron earnings releases.",fontsize=9,color="#888",style="italic")
+fig.subplots_adjust(left=0.085,right=0.95,top=0.80,bottom=0.10)
+fig.savefig("charts/itri-arr-build.png",facecolor="white"); print("wrote charts/itri-arr-build.png")
+
+# ======================================================================
+# EPS: consensus vs actual, 2026 (the serial beats)
+# ======================================================================
+fig,ax=plt.subplots(figsize=(8.6,5.2))
+qe=["Q1 2026","Q2 2026","Q3 2026"]; cons=[1.25,1.29,1.56]; act=[1.49,1.59,1.94]
+beat=[round((a/c-1)*100) for a,c in zip(act,cons)]
+xe=range(len(qe)); w=0.36
+ax.bar([i-w/2 for i in xe],cons,width=w,color=SLATE,zorder=3,label="Consensus (mean)")
+ax.bar([i+w/2 for i in xe],act,width=w,color=NAVY,zorder=3,label="Reported")
+for i in xe:
+    ax.annotate(f"${cons[i]:.2f}",(i-w/2,cons[i]),xytext=(0,4),textcoords="offset points",ha="center",color="#555",fontsize=10)
+    ax.annotate(f"${act[i]:.2f}",(i+w/2,act[i]),xytext=(0,4),textcoords="offset points",ha="center",fontweight="bold",color=INK,fontsize=10.5)
+    ax.annotate(f"+{beat[i]}%",(i,max(act[i],cons[i])+0.14),ha="center",color=ORANGE,fontsize=10.5,fontweight="bold")
+ax.set_xticks(list(xe)); ax.set_xticklabels(qe,fontsize=10.5,color="#444")
+ax.set_ylim(0,2.25); ax.set_yticks([0,0.5,1.0,1.5,2.0]); ax.set_yticklabels(["0","$0.50","$1.00","$1.50","$2.00"],color="#555")
+for s in ["top","right"]: ax.spines[s].set_visible(False)
+ax.grid(axis="y",color=GRID,lw=0.8,zorder=0)
+ax.legend(loc="upper left",fontsize=10,framealpha=0.9)
+fig.suptitle("Analysts have under-forecast Itron every quarter of 2026",fontsize=15,fontweight="bold",color=INK,x=0.085,ha="left",y=0.965)
+fig.text(0.085,0.875,"Non-GAAP EPS, consensus mean versus reported. The misses did not shrink as the year went on.",fontsize=10.5,color="#666",va="bottom")
+fig.text(0.085,0.015,"Consensus from LSEG; reported from Itron earnings releases, 2026.",fontsize=9,color="#888",style="italic")
+fig.subplots_adjust(left=0.085,right=0.95,top=0.80,bottom=0.10)
+fig.savefig("charts/itri-eps-beats.png",facecolor="white"); print("wrote charts/itri-eps-beats.png")
